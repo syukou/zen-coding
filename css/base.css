@@ -98,6 +98,14 @@ input, select {
     vertical-align: middle;
 }
 
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .cf:after {
     content: ".";
     display: block;
