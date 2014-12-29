@@ -1,2 +1,91 @@
 @charset "UTF-8";
 
+.main {
+    margin-top: 50px;
+}
+.main-side-left {
+    float: left;
+    width: 320px;
+}
+.main-contents {
+    float: left;
+    width: 480px;
+    margin-left: 40px;
+}
+.main-side-right {
+    float: left;
+    width: 320px;
+    margin-left: 40px;
+}
+
+.newpost-head {
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    color: #000000;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.newpost-head + .newpost-body {
+    margin-top: 20px;
+}
+
+.newpost-body {
+    position: relative;
+}
+
+.newpost-body-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 60px 20px 17px;
+    z-index: 5;
+}
+
+.newpost-body-info-detail + .newpost-body-info-head {
+    margin-top: 20px;
+}
+
+.newpost-body-info-head {
+    color: #ffffff;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-shadow: 0 1px 0 #080102;
+}
+
+.newpost-body-info-detail-category {
+    float: left;
+}
+
+.newpost-body-info-detail-category li {
+    display: inline-block;
+}
+
+.newpost-body-info-detail-category li + li {
+    margin-left: 5px;
+}
+
+.cat-html {
+    padding: 5px;
+    background-color: #ffff99;
+}
+
+.cat-js {
+    padding: 5px;
+    background-color: #ff8530;
+}
+
+.newpost-body-info-detail-date {
+    float: right;
+    color: #ffffff;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.newpost + .postlist {
+    margin-top: 40px;
+}

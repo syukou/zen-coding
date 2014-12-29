@@ -59,12 +59,13 @@
 
 .header-logos-social {
     float: right;
+    margin-top: 44px;
 }
 
 .header-logos-social li {
     float: left;
-    width: 49px;
-    height: 49px;
+    width: 35px;
+    height: 35px;
 }
 
 .header-logos-social li + li {
@@ -72,15 +73,33 @@
 }
 
 .header-logos-social li a {
-
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-indent: -9999px;
 }
 
 .header-logos-social li a.facebook {
-    display: block;
-    width: 49px;
-    height: 49px;
-    text-indent: -9999px;
-    background: url(/img/sprite/sprite_social.svg) no-repeat;
-    background-size: 49px 49px;
-    background-position: 55px 300px;
+    background: url(/img/icon/icon_facebook.svg) no-repeat;
+    background-size: 35px 35px;
+}
+
+.header-logos-social li a.twitter {
+    background: url(/img/icon/icon_twitter.svg) no-repeat;
+    background-size: 35px 35px;
+}
+
+.header-logos-social li a.google {
+    background: url(/img/icon/icon_google.svg) no-repeat;
+    background-size: 35px 35px;
+}
+
+.header-logos-social li a.pocket {
+    background: url(/img/icon/icon_pocket.svg) no-repeat;
+    background-size: 35px 35px;
+}
+
+.header-logos-social li a.rss {
+    background: url(/img/icon/icon_rss.svg) no-repeat;
+    background-size: 35px 35px;
 }
