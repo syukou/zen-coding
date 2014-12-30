@@ -66,7 +66,7 @@
 							<a href="#">
 								<div class="sideRanking__body-inner cf">
 									<div class="sideRanking__body-inner-thum">
-										<span class="sideRanking__body-inner-thum-rank">1</span>
+										<span class="sideRanking__body-inner-thum-rank rank1"></span>
 										<p class="sideRanking__body-inner-thum-img"><img src="/img/blog/ranking_thum_01.png" alt=""></p>
 									</div>
 									<p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -77,7 +77,7 @@
 							<a href="#">
 								<div class="sideRanking__body-inner cf">
 									<div class="sideRanking__body-inner-thum">
-										<span class="sideRanking__body-inner-thum-rank">2</span>
+										<span class="sideRanking__body-inner-thum-rank rank2"></span>
 										<p class="sideRanking__body-inner-thum-img"><img src="/img/blog/ranking_thum_01.png" alt=""></p>
 									</div>
 									<p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -88,7 +88,7 @@
 							<a href="#">
 								<div class="sideRanking__body-inner cf">
 									<div class="sideRanking__body-inner-thum">
-										<span class="sideRanking__body-inner-thum-rank">3</span>
+										<span class="sideRanking__body-inner-thum-rank rank3"></span>
 										<p class="sideRanking__body-inner-thum-img"><img src="/img/blog/ranking_thum_01.png" alt=""></p>
 									</div>
 									<p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -99,7 +99,7 @@
 							<a href="#">
 								<div class="sideRanking__body-inner cf">
 									<div class="sideRanking__body-inner-thum">
-										<span class="sideRanking__body-inner-thum-rank">4</span>
+										<span class="sideRanking__body-inner-thum-rank rank_low"></span>
 										<p class="sideRanking__body-inner-thum-img"><img src="/img/blog/ranking_thum_01.png" alt=""></p>
 									</div>
 									<p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -110,18 +110,7 @@
 							<a href="#">
 								<div class="sideRanking__body-inner cf">
 									<div class="sideRanking__body-inner-thum">
-										<span class="sideRanking__body-inner-thum-rank">5</span>
-										<p class="sideRanking__body-inner-thum-img"><img src="/img/blog/ranking_thum_01.png" alt=""></p>
-									</div>
-									<p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<div class="sideRanking__body-inner cf">
-									<div class="sideRanking__body-inner-thum">
-										<span class="sideRanking__body-inner-thum-rank">6</span>
+										<span class="sideRanking__body-inner-thum-rank rank_low"></span>
 										<p class="sideRanking__body-inner-thum-img"><img src="/img/blog/ranking_thum_01.png" alt=""></p>
 									</div>
 									<p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -274,6 +263,22 @@
 							</div>
 						</a>
 					</article>
+					<div class="postlist-more">
+						<div class="postlist-more-btn">
+							<a href="#">次の10件をみる</a>
+						</div>
+						<ul class="postlist-more-list">
+							<li><a href="#"><span>＜</span></a></li>
+							<li><a href="#"><span>1</span></a></li>
+							<li><a href="#"><span>2</span></a></li>
+							<li><a href="#"><span>3</span></a></li>
+							<li><a href="#"><span>4</span></a></li>
+							<li><a href="#"><span>5</span></a></li>
+							<li><a href="#"><span>6</span></a></li>
+							<li><a href="#"><span>99</span></a></li>
+							<li><a href="#"><span>＞</span></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="main-side-right">
@@ -285,41 +290,71 @@
 						<article class="pickup__list-block">
 							<a href="#">
 								<p class="pickup__list-block-thum"><img src="/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
-								<p class="pickup__list-block-desc">
-									テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-								</p>
+								<div class="pickup__list-block-desc">
+									<ul class="pickup__list-block-desc-text-category">
+										<li class="category-tag cat-html">HTML</li>
+										<li class="category-tag cat-js">Javascript</li>
+									</ul>
+									<p class="pickup__list-block-desc-text">
+										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+									</p>
+								</div>
 							</a>
 						</article>
 						<article class="pickup__list-block">
 							<a href="#">
 								<p class="pickup__list-block-thum"><img src="/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
-								<p class="pickup__list-block-desc">
-									テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-								</p>
+								<div class="pickup__list-block-desc">
+									<ul class="pickup__list-block-desc-text-category">
+										<li class="category-tag cat-html">HTML</li>
+										<li class="category-tag cat-js">Javascript</li>
+									</ul>
+									<p class="pickup__list-block-desc-text">
+										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+									</p>
+								</div>
 							</a>
 						</article>
 						<article class="pickup__list-block">
 							<a href="#">
 								<p class="pickup__list-block-thum"><img src="/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
-								<p class="pickup__list-block-desc">
-									テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-								</p>
+								<div class="pickup__list-block-desc">
+									<ul class="pickup__list-block-desc-text-category">
+										<li class="category-tag cat-html">HTML</li>
+										<li class="category-tag cat-js">Javascript</li>
+									</ul>
+									<p class="pickup__list-block-desc-text">
+										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+									</p>
+								</div>
 							</a>
 						</article>
 						<article class="pickup__list-block">
 							<a href="#">
 								<p class="pickup__list-block-thum"><img src="/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
-								<p class="pickup__list-block-desc">
-									テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-								</p>
+								<div class="pickup__list-block-desc">
+									<ul class="pickup__list-block-desc-text-category">
+										<li class="category-tag cat-html">HTML</li>
+										<li class="category-tag cat-js">Javascript</li>
+									</ul>
+									<p class="pickup__list-block-desc-text">
+										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+									</p>
+								</div>
 							</a>
 						</article>
 						<article class="pickup__list-block">
 							<a href="#">
 								<p class="pickup__list-block-thum"><img src="/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
-								<p class="pickup__list-block-desc">
-									テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-								</p>
+								<div class="pickup__list-block-desc">
+									<ul class="pickup__list-block-desc-text-category">
+										<li class="category-tag cat-html">HTML</li>
+										<li class="category-tag cat-js">Javascript</li>
+									</ul>
+									<p class="pickup__list-block-desc-text">
+										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+									</p>
+								</div>
 							</a>
 						</article>
 					</div>
@@ -334,7 +369,11 @@
 
 	</div>
 	<footer class="footer">
-
+		<div class="cm-inner">
+			<div class="footer-left">
+				<p><a href="#"><img src="/img/foot_logo_beside_w.svg" alt="" width="119" height="40"></a></p>
+			</div>
+		</div>
 	</footer>
 </div>
 </body>

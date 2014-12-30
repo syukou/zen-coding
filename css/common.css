@@ -103,3 +103,9 @@
     background: url(/img/icon/icon_rss.svg) no-repeat;
     background-size: 35px 35px;
 }
+
+
+.footer {
+    padding: 20px 0;
+    background-color: #000000;
+}

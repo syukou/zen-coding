@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .main {
-    margin-top: 50px;
+    margin: 50px 0 120px;
 }
 .main-side-left {
     float: left;
@@ -69,13 +69,15 @@
 }
 
 .category-tag {
-    box-shadow: 0 1px 4px rgba(32, 32, 32, 0.30), 0 0 40px rgba(71, 71, 71, 0.10) inset;
+    box-shadow: 0 1px 4px rgba(82, 82, 82, 0.30), 0 0 40px rgba(71, 71, 71, 0.10) inset;
     position: relative;
+    font-size: 10px;
+    font-size: 1rem;
 }
 .category-tag:before, .category-tag:after {
     border-radius: 100px 100px 100px 100px / 10px 10px 10px 10px;
     bottom: 0;
-    box-shadow: 0 0 20px rgba(32, 32, 32, 0.80);
+    box-shadow: 0 0 15px rgba(82, 82, 82, 0.80);
     content: "";
     left: 10px;
     position: absolute;
@@ -113,4 +115,89 @@
 
 .newpost + .postlist {
     margin-top: 40px;
+}
+
+.postlist-more {
+    margin-top: 20px;
+}
+
+.postlist-more-btn a {
+    position: relative;
+    display: block;
+    padding: 17px 15px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    font-size: 1.6rem;
+    text-align: center;
+    box-shadow: 0 2px 4px #b6b6b6;
+    -webkit-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.postlist-more-btn a:hover {
+    background-color: #FF8C00;
+}
+
+.postlist-more-btn a:after {
+    content: "";
+    position: absolute;
+    right: 25px;
+    top: 23px;
+    width: 15px;
+    height: 15px;
+    margin-top: -5px;
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.postlist-more-list {
+    margin-top: 20px;
+    text-align: center;
+}
+.postlist-more-list li {
+    display: inline-block;
+}
+
+.postlist-more-list li + li {
+    margin-left: 10px;
+}
+
+.postlist-more-list li a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    font-size: 17px;
+    font-size: 1.7rem;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px #b6b6b6;
+    -webkit-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.postlist-more-list li a:hover {
+    background-color: #FF8C00;
+}
+
+.postlist-more-list li a span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 35px;
+    height: 15px;
 }
