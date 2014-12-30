@@ -189,10 +189,12 @@
 */
 
 .category-tag {
+    display: block;
     box-shadow: 0 1px 4px rgba(82, 82, 82, 0.30), 0 0 40px rgba(71, 71, 71, 0.10) inset;
     position: relative;
     font-size: 10px;
     font-size: 1rem;
+    text-align: center;
 }
 .category-tag:before, .category-tag:after {
     border-radius: 100px 100px 100px 100px / 10px 10px 10px 10px;
@@ -217,10 +219,12 @@
 
 .cat-html {
     padding: 5px;
-    background-color: #ffff99;
+    background-color: #67b0ff;
+    color: #ffffff;
 }
 
 .cat-js {
     padding: 5px;
     background-color: #ff8530;
+    color: #ffffff;
 }
