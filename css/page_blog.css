@@ -5,16 +5,16 @@
 }
 .main-side-left {
     float: left;
-    width: 320px;
+    width: 300px;
 }
 .main-contents {
     float: left;
-    width: 480px;
+    width: 520px;
     margin-left: 40px;
 }
 .main-side-right {
     float: left;
-    width: 320px;
+    width: 300px;
     margin-left: 40px;
 }
 
