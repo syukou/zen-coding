@@ -40,18 +40,19 @@
 */
 
 .sideRanking {
-    border: 1px solid #e1e1e1;
+    border: 1px solid #DBD8D0;
 }
 
 .sideRanking__head {
     padding: 15px;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #DBD8D0;
+    color: #4C4C4C;
     font-size: 16px;
     font-size: 1.6rem;
 }
 
 .sideRanking__body li + li {
-    border-top: 1px solid #e1e1e1;
+    border-top: 1px solid #DBD8D0;
 }
 
 .sideRanking__body li a {
