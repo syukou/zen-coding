@@ -7,10 +7,10 @@
     <script src="/js/html5shiv.js"></script>
     <script src="/js/IE9.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/css/base.css">
-    <link rel="stylesheet" href="/css/common.css">
-    <link rel="stylesheet" href="/css/module.css">
-    <link rel="stylesheet" href="/css/page_blog.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/base.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/module.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page_blog.css">
 </head>
 <body>
 <div class="cm-wrapper">
