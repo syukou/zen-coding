@@ -45,7 +45,7 @@
 </header>
 <div class="kv">
     <div class="cm-inner">
-        <figure><img src="/img/blog/kv01.png" alt="キービジュアル"></figure>
+        <figure><img src="<?php echo get_template_directory_uri(); ?>/img/blog/kv01.png" alt="キービジュアル"></figure>
     </div>
 </div>
 <main class="main">
@@ -72,7 +72,7 @@
                         <div class="sideRanking__body-inner-thum">
                             <span class="sideRanking__body-inner-thum-rank rank1"></span>
 
-                            <p class="sideRanking__body-inner-thum-img"><img src="/img/blog/ranking_thum_01.png" alt="">
+                            <p class="sideRanking__body-inner-thum-img"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/ranking_thum_01.png" alt="">
                             </p>
                         </div>
                         <p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -85,7 +85,7 @@
                         <div class="sideRanking__body-inner-thum">
                             <span class="sideRanking__body-inner-thum-rank rank2"></span>
 
-                            <p class="sideRanking__body-inner-thum-img"><img src="/img/blog/ranking_thum_01.png" alt="">
+                            <p class="sideRanking__body-inner-thum-img"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/ranking_thum_01.png" alt="">
                             </p>
                         </div>
                         <p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -98,7 +98,7 @@
                         <div class="sideRanking__body-inner-thum">
                             <span class="sideRanking__body-inner-thum-rank rank3"></span>
 
-                            <p class="sideRanking__body-inner-thum-img"><img src="/img/blog/ranking_thum_01.png" alt="">
+                            <p class="sideRanking__body-inner-thum-img"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/ranking_thum_01.png" alt="">
                             </p>
                         </div>
                         <p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -111,7 +111,7 @@
                         <div class="sideRanking__body-inner-thum">
                             <span class="sideRanking__body-inner-thum-rank rank_low"></span>
 
-                            <p class="sideRanking__body-inner-thum-img"><img src="/img/blog/ranking_thum_01.png" alt="">
+                            <p class="sideRanking__body-inner-thum-img"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/ranking_thum_01.png" alt="">
                             </p>
                         </div>
                         <p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -124,7 +124,7 @@
                         <div class="sideRanking__body-inner-thum">
                             <span class="sideRanking__body-inner-thum-rank rank_low"></span>
 
-                            <p class="sideRanking__body-inner-thum-img"><img src="/img/blog/ranking_thum_01.png" alt="">
+                            <p class="sideRanking__body-inner-thum-img"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/ranking_thum_01.png" alt="">
                             </p>
                         </div>
                         <p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -143,7 +143,7 @@
         <div class="newpost-body">
             <a href="#">
                 <p class="newpost-body-thum">
-                    <img src="/img/blog/newpost_thum.png" alt="新着記事サムネイル">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/blog/newpost_thum.png" alt="新着記事サムネイル">
                 </p>
 
                 <div class="newpost-body-info">
@@ -168,7 +168,7 @@
             <a href="#">
                 <div class="postlist-block-inner cf">
                     <p class="postlist-block-thum">
-                        <img src="/img/blog/post_thum.png" alt="記事サムネイル">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
                     </p>
 
                     <div class="postlist-block-info">
@@ -192,7 +192,7 @@
             <a href="#">
                 <div class="postlist-block-inner cf">
                     <p class="postlist-block-thum">
-                        <img src="/img/blog/post_thum.png" alt="記事サムネイル">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
                     </p>
 
                     <div class="postlist-block-info">
@@ -216,7 +216,7 @@
             <a href="#">
                 <div class="postlist-block-inner cf">
                     <p class="postlist-block-thum">
-                        <img src="/img/blog/post_thum.png" alt="記事サムネイル">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
                     </p>
 
                     <div class="postlist-block-info">
@@ -240,7 +240,7 @@
             <a href="#">
                 <div class="postlist-block-inner cf">
                     <p class="postlist-block-thum">
-                        <img src="/img/blog/post_thum.png" alt="記事サムネイル">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
                     </p>
 
                     <div class="postlist-block-info">
@@ -264,7 +264,7 @@
             <a href="#">
                 <div class="postlist-block-inner cf">
                     <p class="postlist-block-thum">
-                        <img src="/img/blog/post_thum.png" alt="記事サムネイル">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
                     </p>
 
                     <div class="postlist-block-info">
@@ -311,7 +311,7 @@
         <div class="pickup__list">
             <article class="pickup__list-block">
                 <a href="#">
-                    <p class="pickup__list-block-thum"><img src="/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
+                    <p class="pickup__list-block-thum"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
 
                     <div class="pickup__list-block-desc">
                         <ul class="pickup__list-block-desc-text-category">
@@ -327,7 +327,7 @@
             </article>
             <article class="pickup__list-block">
                 <a href="#">
-                    <p class="pickup__list-block-thum"><img src="/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
+                    <p class="pickup__list-block-thum"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
 
                     <div class="pickup__list-block-desc">
                         <ul class="pickup__list-block-desc-text-category">
@@ -342,7 +342,7 @@
             </article>
             <article class="pickup__list-block">
                 <a href="#">
-                    <p class="pickup__list-block-thum"><img src="/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
+                    <p class="pickup__list-block-thum"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
 
                     <div class="pickup__list-block-desc">
                         <ul class="pickup__list-block-desc-text-category">
@@ -357,7 +357,7 @@
             </article>
             <article class="pickup__list-block">
                 <a href="#">
-                    <p class="pickup__list-block-thum"><img src="/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
+                    <p class="pickup__list-block-thum"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
 
                     <div class="pickup__list-block-desc">
                         <ul class="pickup__list-block-desc-text-category">
@@ -372,7 +372,7 @@
             </article>
             <article class="pickup__list-block">
                 <a href="#">
-                    <p class="pickup__list-block-thum"><img src="/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
+                    <p class="pickup__list-block-thum"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
 
                     <div class="pickup__list-block-desc">
                         <ul class="pickup__list-block-desc-text-category">
@@ -399,7 +399,7 @@
 <footer class="footer">
     <div class="cm-inner">
         <div class="footer-left">
-            <p><a href="#"><img src="/img/foot_logo_beside_w.svg" alt="" width="119" height="40"></a></p>
+            <p><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/foot_logo_beside_w.svg" alt="" width="119" height="40"></a></p>
         </div>
     </div>
 </footer>

@@ -91,22 +91,22 @@
 }
 
 .sideRanking__body-inner-thum-rank.rank1:before {
-    background: url(/img/icon/icon_rank1.svg) no-repeat left top;
+    background: url(../img/icon/icon_rank1.svg) no-repeat left top;
     background-size: 29px 24px;
 }
 
 .sideRanking__body-inner-thum-rank.rank2:before {
-    background: url(/img/icon/icon_rank2.svg) no-repeat left top;
+    background: url(../img/icon/icon_rank2.svg) no-repeat left top;
     background-size: 29px 24px;
 }
 
 .sideRanking__body-inner-thum-rank.rank3:before {
-    background: url(/img/icon/icon_rank3.svg) no-repeat left top;
+    background: url(../img/icon/icon_rank3.svg) no-repeat left top;
     background-size: 29px 24px;
 }
 
 .sideRanking__body-inner-thum-rank.rank_low:before {
-    background: url(/img/icon/icon_lowrank.svg) no-repeat left top;
+    background: url(../img/icon/icon_lowrank.svg) no-repeat left top;
     background-size: 29px 24px;
 }
 
