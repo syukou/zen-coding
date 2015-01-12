@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 .main-side-category.sideList {
-	border: 1px solid #e5e5e5;
+	border: 1px solid #eaeaea;
 }
 .sideList__head {
 	padding: 15px;
-	background-color: #e5e5e5;
+	background-color: #eaeaea;
 	color: #000000;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -13,7 +13,7 @@
 }
 
 .sideList__body li + li {
-	border-top: 1px solid #e5e5e5;
+	border-top: 1px solid #eaeaea;
 }
 
 .sideList__body li a {
@@ -42,13 +42,13 @@
 */
 
 .sideRanking {
-	border: 1px solid #e5e5e5;
+	border: 1px solid #eaeaea;
 }
 
 .sideRanking__head {
 	padding: 15px;
-	background-color: #e5e5e5;
-	border-bottom: 1px solid #e5e5e5;
+	background-color: #eaeaea;
+	border-bottom: 1px solid #eaeaea;
 	color: #4C4C4C;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -143,8 +143,8 @@
 
 .pickup__head {
 	padding: 15px;
-	background-color: #e5e5e5;
-	border-bottom: 1px solid #dddddd;
+	background-color: #eaeaea;
+	border-bottom: 1px solid #eaeaea;
 	font-size: 16px;
 	font-size: 1.6rem;
 }
