@@ -146,7 +146,7 @@
 }
 
 .post-body ul li  + li {
-	margin-top: 15px;
+	margin-top: 20px;
 }
 
 .post-body ul li:before {
@@ -173,7 +173,7 @@
 }
 
 .post-body ol li  + li {
-	margin-top: 15px;
+	margin-top: 20px;
 }
 
 .post-body a {
@@ -235,6 +235,10 @@
 サイドバー関連記事
 //////////////////////////////////////////////////////////////////////
 */
+
+.post-right section + section {
+	margin-top: 40px;
+}
 
 .related {
 	border: 1px solid #eaeaea;
