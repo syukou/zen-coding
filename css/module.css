@@ -131,24 +131,19 @@
 */
 
 .pickup {
-	border: 1px solid #e1e1e1;
+	border-bottom: 3px solid #333333;
 }
 
 .pickup__head {
-	padding: 15px;
-	background-color: #eaeaea;
-	border-bottom: 1px solid #eaeaea;
+	padding: 15px 15px 15px 0;
+	border-top: 3px solid #333333;
+	border-bottom: 3px solid #333333;
 	font-size: 16px;
 	font-size: 1.6rem;
 }
 
-.pickup__list {
-	padding: 12px 0 0;
-	background: url(../img/bg_dott_border_side.png) repeat-x left top;
-}
-
 .pickup__list-block + .pickup__list-block {
-	border-top: 1px solid #e1e1e1;
+	border-top: 1px dashed #333333;
 }
 
 .pickup__list-block a {
