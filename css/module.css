@@ -1,24 +1,22 @@
 @charset "UTF-8";
 
-.main-side-category.sideList {
-	border: 1px solid #eaeaea;
-}
 .sideList__head {
-	padding: 15px;
-	background-color: #eaeaea;
-	color: #000000;
+	padding: 15px 15px 15px 0;
+	border-top: 3px solid #333333;
+	border-bottom: 3px solid #333333;
+	color: #333333;
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-weight: bold;
 }
 
 .sideList__body li + li {
-	border-top: 1px solid #eaeaea;
+	border-top: 1px dashed #333333;
 }
 
 .sideList__body li a {
 	display: block;
-	padding: 20px;
+	padding: 20px 20px 20px 0;
 	font-size: 15px;
 	font-size: 1.5rem;
 	-webkit-transition: background-color 0.3s;
@@ -42,21 +40,16 @@
 */
 
 .sideRanking {
-	border: 1px solid #eaeaea;
+	border-bottom: 3px solid #333333;
 }
 
 .sideRanking__head {
-	padding: 15px;
-	background-color: #eaeaea;
-	border-bottom: 1px solid #eaeaea;
-	color: #4C4C4C;
+	padding: 15px 15px 15px 0;
+	border-top: 3px solid #333333;
+	border-bottom: 3px solid #333333;
+	color: #333333;
 	font-size: 16px;
 	font-size: 1.6rem;
-}
-
-.sideRanking__body {
-	padding: 12px 0 0;
-	background: url(../img/bg_dott_border_side.png) repeat-x left top;
 }
 
 .sideRanking__body li {
@@ -64,7 +57,7 @@
 }
 
 .sideRanking__body li + li {
-	border-top: 1px solid #DBD8D0;
+	border-top: 1px dashed #333333;
 }
 
 .sideRanking__body li a {
