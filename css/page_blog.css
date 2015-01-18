@@ -7,14 +7,22 @@
 
 .main-contents {
 	float: left;
-	width: 520px;
+	width: 860px;
 	margin-left: 40px;
 }
 
-.main-side-right {
-	float: left;
-	width: 300px;
-	margin-left: 40px;
+.main-contents-head {
+	padding: 15px;
+	border-radius: 4px 4px 0 0;
+	background-color: #181818;
+	color: #ffffff;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.main-contents-head + .postlist {
+	margin-top: 40px;
 }
 
 .kv {
@@ -30,29 +38,31 @@
 //////////////////////////////////////////////////////////////////////
 */
 
-.newpost-head {
-	padding: 12px 15px 12px 15px;
-	background-color: #181818;
-	color: #ffffff;
-	font-size: 16px;
-	font-size: 1.6rem;
-	font-weight: bold;
+.newpost-body a {
+	display: block;
+	padding: 40px 0;
+	-webkit-transition: background-color 0.3s;
+	-ms-transition: background-color 0.3s;
+	-moz-transition: background-color 0.3s;
+	transition: background-color 0.3s;
 }
 
-.newpost-head + .newpost-body {
-	margin-top: 20px;
+.newpost-body a:hover {
+	background-color: #e7e7e7;
 }
 
-.newpost-body {
-	position: relative;
+.newpost-body-thum {
+	float: left;
+	width: 400px;
 }
 
 .newpost-body-info {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	padding: 60px 20px 17px;
-	z-index: 5;
+	float: left;
+	width: 420px;
+}
+
+.newpost-body-thum + .newpost-body-info {
+	margin-left: 20px;
 }
 
 .newpost-body-info-detail + .newpost-body-info-head {
@@ -60,12 +70,21 @@
 }
 
 .newpost-body-info-head {
-	color: #ffffff;
+	color: #000000;
 	font-size: 18px;
 	font-size: 1.8rem;
 	font-weight: bold;
 	line-height: 1.4;
-	text-shadow: 0 1px 0 #080102;
+}
+
+.newpost-body-info-head + .newpost-body-info-desc {
+	margin-top: 15px;
+}
+
+.newpost-body-info-desc {
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1.5;
 }
 
 .newpost-body-info-detail-category {
@@ -82,14 +101,9 @@
 
 .newpost-body-info-detail-date {
 	float: left;
-	color: #ffffff;
+	color: #000000;
 	font-size: 18px;
 	font-size: 1.8rem;
-	font-weight: bold;
-}
-
-.newpost + .postlist {
-	margin-top: 40px;
 }
 
 /*
@@ -117,7 +131,7 @@
 
 .postlist-block a {
 	display: block;
-	padding: 35px 10px;
+	padding: 35px 20px;
 	-webkit-transition: background-color 0.3s;
 	-ms-transition: background-color 0.3s;
 	-moz-transition: background-color 0.3s;
@@ -133,12 +147,12 @@
 }
 
 .postlist-block-info {
-	float: right;
-	width: 255px;
+	float: left;
+	width: 590px;
 }
 
 .postlist-block-thum + .postlist-block-info {
-	margin-left: 15px;
+	margin-left: 20px;
 }
 
 .postlist-block-info-detail-category {
@@ -165,8 +179,8 @@
 }
 
 .postlist-block-info-head {
-	font-size: 18px;
-	font-size: 1.8rem;
+	font-size: 16px;
+	font-size: 1.6rem;
 	line-height: 1.5;
 }
 

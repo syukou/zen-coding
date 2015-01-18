@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .main-side-category-head {
-	padding: 12px 15px 12px 15px;
+	padding: 15px;
 	border-radius: 4px 4px 0 0;
 	background-color: #181818;
 	color: #ffffff;
@@ -59,7 +59,6 @@
 
 .sideRanking__body li {
 	border-bottom: 1px dashed #B3B3B3;
-	background-color: #f5f5f5;
 }
 
 .sideRanking__body li a {
