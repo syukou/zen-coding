@@ -11,117 +11,93 @@
 }
 .header {
 	position: relative;
+	border-bottom: 8px solid #181818;
 }
-.header-nav {
-	height: 50px;
-	background-color: #000000;
-	border-bottom: 1px solid #dddddd;
-}
-
-.header-logos {
-	padding: 25px 0;
-	background: url(../img/bg_dott_border_gray.png) repeat-x left top;
+.header-upper {
+	height: 20px;
+	background-color: #181818;
 }
 
-.header-nav-desc {
-	float: left;
-	width: 350px;
-	padding: 20px 0 0;
-	color: #ffffff;
-	font-size: 12px;
-	font-size: 1.2rem;
-}
-
-.header-nav-list {
-	float: right;
-	width: 620px;
-	padding: 20px 0 0;
-}
-
-.header-nav-list li {
-	display: inline-block;
-	letter-spacing: 1px;
-}
-
-.header-nav-list li + li {
-	margin-left: 30px;
-}
-
-.header-nav-list li a {
-	display: block;
-	text-align: center;
-	font-size: 14px;
-	font-size: 1.4rem;
-	color: #ffffff;
-	font-weight: bold;
-}
-
-.header-nav-list li span {
-	display: block;
-	text-align: center;
-	font-size: 14px;
-	font-size: 1.4rem;
-	color: #c3c3c3;
-	font-weight: bold;
+.header-logos-inner {
+	position: relative;
+	height: 210px;
 }
 
 .header-logos-img {
+	position: absolute;
+	left: 65px;
+	top: 65px;
+}
+
+.header-logos-img a {
+	display: block;
 	float: left;
 	width: 200px;
 	height: 79px;
-	text-indent: -9999px;
-	background: url(../img/logo_tenshin.svg) no-repeat left center;
-	background-size: 200px 79px;
 }
 
-.header-logos-social {
+.header-logos-nav {
 	float: right;
-	margin-top: 44px;
 }
 
-.header-logos-social li {
+.header-logos-nav ul {
+	border-left: 1px solid #181818;
+	border-right: 1px solid #181818;
+}
+
+.header-logos-nav ul li {
 	float: left;
-	width: 35px;
-	height: 35px;
+	width: 150px;
+	height: 210px;
 }
 
-.header-logos-social li + li {
-	margin-left: 20px;
+.header-logos-nav ul li + li {
+	border-left: 1px solid #181818;
 }
 
-.header-logos-social li a {
+.header-logos-nav-list {
+	position: relative;
 	display: block;
-	width: 35px;
-	height: 35px;
-	text-indent: -9999px;
+	width: 150px;
+	height: 210px;
 }
 
-.header-logos-social li a.facebook {
-	background: url(../img/icon/icon_facebook.svg) no-repeat;
-	background-size: 35px 35px;
+.header-logos-nav ul li span {
+	color: #cccccc;
 }
 
-.header-logos-social li a.twitter {
-	background: url(../img/icon/icon_twitter.svg) no-repeat;
-	background-size: 35px 35px;
+.header-logos-nav-list:hover {
+	background: url(../img/bg_stripe.svg);
 }
 
-.header-logos-social li a.google {
-	background: url(../img/icon/icon_google.svg) no-repeat;
-	background-size: 35px 35px;
+.header-logos-nav-list-inner {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 150px;
+	height: 28px;
+	margin: auto;
+	text-align: center;
+}
+.header-logos-nav-list-head {
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: bold;
 }
 
-.header-logos-social li a.pocket {
-	background: url(../img/icon/icon_pocket.svg) no-repeat;
-	background-size: 35px 35px;
+.header-logos-nav-list-ruby {
+	margin-top: 10px;
+	font-size: 10px;
+	font-size: 1rem;
 }
 
-.header-logos-social li a.rss {
-	background: url(../img/icon/icon_rss.svg) no-repeat;
-	background-size: 35px 35px;
+.main {
+	margin: 50px 0 120px;
 }
 
 .footer {
 	padding: 20px 0;
-	background-color: #000000;
+	background-color: #181818;
 }

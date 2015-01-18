@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-.main {
-	margin: 0 0 120px;
-}
-
 .main-side-left {
 	float: left;
 	width: 300px;
@@ -22,9 +18,12 @@
 }
 
 .kv {
-	margin-bottom: 50px;
+	border-bottom: 8px solid #181818;
 }
 
+.kv img {
+	vertical-align: bottom;
+}
 /*
 //////////////////////////////////////////////////////////////////////
 新着記事
@@ -32,9 +31,9 @@
 */
 
 .newpost-head {
-	padding: 15px;
-	border: 3px solid #333333;
-	color: #333333;
+	padding: 12px 15px 12px 15px;
+	background-color: #181818;
+	color: #ffffff;
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-weight: bold;
@@ -126,7 +125,7 @@
 }
 
 .postlist-block a:hover {
-	background-color: #fbffd5;
+	background-color: #e7e7e7;
 }
 
 .postlist-block-thum {
@@ -186,7 +185,7 @@
 	display: block;
 	padding: 17px 15px;
 	border-radius: 5px;
-	background-color: #000000;
+	background-color: #181818;
 	color: #ffffff;
 	font-size: 16px;
 	font-size: 1.6rem;
