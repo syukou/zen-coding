@@ -12,10 +12,9 @@
 }
 
 .main-contents-head {
-	padding: 15px;
-	border-radius: 4px 4px 0 0;
-	background-color: #181818;
-	color: #ffffff;
+	padding: 9px 15px;
+	border: 4px solid #181818;
+	color: #000000;
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-weight: bold;
@@ -126,7 +125,7 @@
 }
 
 .postlist-block {
-	border-top: 1px solid #e1e1e1;
+	border-top: 1px solid #181818;
 }
 
 .postlist-block a {

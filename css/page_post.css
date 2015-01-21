@@ -48,8 +48,8 @@
 
 .post-detail {
 	margin: 10px 0 25px;
-	padding-bottom: 16px;
-	border-bottom: 1px solid #dddddd;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #181818;
 }
 
 .post-detail-date {
@@ -236,16 +236,18 @@
 	margin-top: 40px;
 }
 
-.related {
-	border: 1px solid #eaeaea;
-}
-
 .related__head {
 	padding: 12px 15px 12px 15px;
-	background-color: #181818;
-	color: #ffffff;
+	border: 1px solid #181818;
+	color: #000000;
 	font-size: 16px;
 	font-size: 1.6rem;
+}
+
+.related__list {
+	border-left: 1px solid #181818;
+	border-right: 1px solid #181818;
+	border-bottom: 1px solid #181818;
 }
 
 .related__list-block + .related__list-block {
