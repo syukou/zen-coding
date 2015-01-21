@@ -23,6 +23,7 @@
 }
 
 .sideList__body li a {
+	position: relative;
 	display: block;
 	padding: 17px 20px 17px 20px;
 	font-size: 15px;
@@ -31,6 +32,21 @@
 	-ms-transition: background-color 0.3s;
 	-moz-transition: background-color 0.3s;
 	transition: background-color 0.3s;
+}
+.sideList__body li a:after {
+	content: "";
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	width: 8px;
+	height: 8px;
+	margin-top: -5px;
+	border-top: 1px solid #888888;
+	border-right: 1px solid #888888;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 .sideList__body li a:hover {

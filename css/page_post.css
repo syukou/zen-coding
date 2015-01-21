@@ -238,20 +238,18 @@
 
 .related__head {
 	padding: 12px 15px 12px 15px;
-	border: 1px solid #181818;
+	border: 3px solid #181818;
 	color: #000000;
 	font-size: 16px;
 	font-size: 1.6rem;
 }
 
 .related__list {
-	border-left: 1px solid #181818;
-	border-right: 1px solid #181818;
-	border-bottom: 1px solid #181818;
+	border-bottom: 1px dashed #b3b3b3;
 }
 
 .related__list-block + .related__list-block {
-	border-top: 1px solid #eaeaea;
+	border-top: 1px dashed #b3b3b3;
 }
 
 .related__list-block a {
@@ -264,7 +262,7 @@
 }
 
 .related__list-block a:hover {
-	background-color: #fbffd5;
+	background-color: #e7e7e7;
 }
 
 .related__list-block-thum {
