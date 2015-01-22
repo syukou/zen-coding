@@ -1,56 +1,72 @@
+@charset "UTF-8";
+
 .fcR {
-  color: #ff0000; }
+  color: #ff0000;
+}
 
 .cm-inner {
   position: relative;
   width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .header {
   position: relative;
-  border-bottom: 8px solid #181818; }
+  border-bottom: 8px solid #181818;
+}
 
 .header-upper {
   height: 15px;
-  background-color: #181818; }
+  background-color: #181818;
+}
 
 .header-logos-inner {
   position: relative;
-  height: 210px; }
+  height: 210px;
+}
 
 .header-logos-img {
   position: absolute;
   left: 65px;
-  top: 65px; }
-  .header-logos-img a {
+  top: 65px;
+  a {
     display: block;
     float: left;
     width: 303px;
-    height: 80px; }
+    height: 80px;
+  }
+}
 
 .header-logos-nav {
-  float: right; }
-  .header-logos-nav ul {
+  float: right;
+  ul {
     border-left: 1px solid #181818;
-    border-right: 1px solid #181818; }
-    .header-logos-nav ul li {
+    border-right: 1px solid #181818;
+    li {
       float: left;
       width: 150px;
-      height: 210px; }
-      .header-logos-nav ul li + li {
-        border-left: 1px solid #181818; }
+      height: 210px;
+      + li {
+        border-left: 1px solid #181818;
+      }
+    }
+  }
+}
 
 .header-logos-nav-list {
   position: relative;
   display: block;
   width: 150px;
-  height: 210px; }
+  height: 210px;
+}
 
 .header-logos-nav ul li span {
-  color: #cccccc; }
+  color: #cccccc;
+}
 
 .header-logos-nav-list:hover {
-  background: url(../img/bg_stripe.svg); }
+  background: url(../img/bg_stripe.svg);
+}
 
 .header-logos-nav-list-inner {
   position: absolute;
@@ -61,21 +77,26 @@
   width: 150px;
   height: 28px;
   margin: auto;
-  text-align: center; }
+  text-align: center;
+}
 
 .header-logos-nav-list-head {
   font-size: 13px;
   font-size: 1.3rem;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .header-logos-nav-list-ruby {
   margin-top: 10px;
   font-size: 10px;
-  font-size: 1rem; }
+  font-size: 1rem;
+}
 
 .main {
-  margin: 50px 0 120px; }
+  margin: 50px 0 120px;
+}
 
 .footer {
   padding: 20px 0;
-  background-color: #181818; }
+  background-color: #181818;
+}

@@ -5,6 +5,7 @@
 
 *.log
 .htaccess
+node_modules
 sitemap.xml
 sitemap.xml.gz
 wp-config.php
