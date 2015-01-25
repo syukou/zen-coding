@@ -9,19 +9,29 @@
   margin-left: 40px; }
 
 .main-contents-head {
-  padding: 9px 15px;
+  position: relative;
+  padding: 9px 15px 9px 10px;
   border: 3px solid #181818;
   color: #000000;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold; }
   .main-contents-head + .postlist {
     margin-top: 40px; }
+  .main-contents-head span {
+    padding-left: 8px;
+    border-left: 5px solid #181818; }
 
 .kv {
-  border-bottom: 8px solid #181818; }
+  border-bottom: 7px solid #181818; }
   .kv img {
     vertical-align: bottom; }
+
+.kv-outer {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-top: 3px solid #181818;
+  border-bottom: 3px solid #181818; }
 
 /*
 //////////////////////////////////////////////////////////////////////
@@ -133,13 +143,14 @@
   margin-top: 20px; }
 
 .postlist-block-info-head {
-  font-size: 16px;
-  font-size: 1.6rem;
+  color: #000000;
+  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 1.5; }
   .postlist-block-info-head + .postlist-block-info {
     margin-top: 10px;
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.3; }
 
 /*

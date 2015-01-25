@@ -2,7 +2,7 @@
 .main-side-category-head {
   padding: 9px 15px;
   border: 3px solid #181818;
-  color: #e1ff25;
+  color: #000000;
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: bold; }
@@ -126,7 +126,9 @@
   border-bottom: 1px dashed #B3B3B3; }
   .pickup__list-block a {
     display: table;
+    width: 100%;
     padding: 20px 10px;
+    box-sizing: border-box;
     -webkit-transition: background-color 0.3s;
     -ms-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
@@ -135,11 +137,11 @@
       background-color: #e7e7e7; }
 
 .pickup__list-block-thum {
-  display: table-cell; }
+  display: table-cell;
+  padding-right: 10px; }
 
 .pickup__list-block-desc {
   display: table-cell;
-  padding-left: 10px;
   vertical-align: middle;
   overflow: hidden; }
 

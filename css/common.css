@@ -8,10 +8,10 @@
 
 .header {
   position: relative;
-  border-bottom: 8px solid #181818; }
+  border-bottom: 7px solid #181818; }
 
 .header-upper {
-  height: 8px;
+  height: 7px;
   background-color: #181818; }
 
 .header-logos-inner {
@@ -45,6 +45,15 @@
   display: block;
   width: 150px;
   height: 210px; }
+  .header-logos-nav-list:after {
+    content: "";
+    position: absolute;
+    left: 59px;
+    bottom: 40px;
+    width: 30px;
+    height: 30px;
+    background: url(../img/icon/icon_gnav.svg) no-repeat;
+    background-size: 30px 30px; }
 
 .header-logos-nav ul li span {
   color: #cccccc; }
@@ -59,7 +68,7 @@
   bottom: 0;
   left: 0;
   width: 150px;
-  height: 28px;
+  height: 31px;
   margin: auto;
   text-align: center; }
 
