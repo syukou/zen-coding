@@ -75,7 +75,8 @@
 	color: #cccccc;
 }
 
-.header-logos-nav-list:hover {
+.header-logos-nav-list:hover,
+.header-logos-nav-list.current {
 	background: url(../img/bg_stripe.svg);
 }
 
