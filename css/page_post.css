@@ -226,3 +226,20 @@
   display: inline-block; }
   .related__list-block-desc-text-category li + li {
     margin-left: 10px; }
+
+.social {
+  padding: 20px 13px;
+  border: 3px solid #181818; }
+
+.social__list > li {
+  float: left; }
+
+.social__list--twitter {
+  margin-right: 7px; }
+
+.social__list--hatena {
+  margin-top: 10px;
+  margin-right: 8px; }
+
+.social__list--gplus {
+  margin-top: 10px; }
