@@ -27,5 +27,5 @@ module.exports = function(grunt) {
 			grunt.loadNpmTasks(taskName);
 		}
 	}
-	grunt.registerTask('default', ['watch']);
+	grunt.registerTask('default', ['watch','sass']);
 };
