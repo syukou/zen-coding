@@ -1,5 +1,4 @@
 module.exports = function(grunt) {
-	var pkg = grunt.file.readJSON('package.json');
 	grunt.initConfig({
 		sass: {
 			compile: {
@@ -15,17 +14,25 @@ module.exports = function(grunt) {
 				files: ['sass/*.scss'],
 				tasks: ['sass']
 			},
+			html_files: {
+				files: '/*.html'
+			},
 			options: {
 				livereload: true
 			}
 		}
 	});
 
-	var taskName;
-	for(taskName in pkg.devDependencies) {
-		if(taskName.substring(0, 6) == 'grunt-') {
-			grunt.loadNpmTasks(taskName);
-		}
-	}
+	grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-contrib-clean');
+	grunt.loadNpmTasks('grunt-contrib-compass');
+	grunt.loadNpmTasks('grunt-contrib-connect');
+	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-contrib-jshint');
+	grunt.loadNpmTasks('grunt-contrib-less');
+	grunt.loadNpmTasks('grunt-contrib-stylus');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
+
 	grunt.registerTask('default', ['watch','sass']);
 };
