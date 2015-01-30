@@ -58,10 +58,10 @@
     background-size: 30px 30px; }
 
 .header-logos-nav ul li span {
-  color: #cccccc; }
+  color: #ededed; }
 
-.header-logos-nav-list:hover,
-.header-logos-nav-list.current {
+.header-logos-nav ul li a:hover,
+.header-logos-nav ul li a.current {
   background: url(../img/bg_stripe.svg); }
 
 .header-logos-nav-list-inner {
@@ -73,7 +73,8 @@
   width: 150px;
   height: 31px;
   margin: auto;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Raleway'; }
 
 .header-logos-nav-list-head {
   font-size: 13px;

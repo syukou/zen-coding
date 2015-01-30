@@ -31,10 +31,11 @@
 		-ms-transition: background-color 0.3s;
 		-moz-transition: background-color 0.3s;
 		transition: background-color 0.3s;
+		font-family: 'Raleway';
 		&:after {
 			content: "";
 			position: absolute;
-			right: 25px;
+			right: 20px;
 			top: 25px;
 			width: 8px;
 			height: 8px;

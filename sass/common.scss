@@ -75,11 +75,11 @@
 }
 
 .header-logos-nav ul li span {
-	color: #cccccc;
+	color: #ededed;
 }
 
-.header-logos-nav-list:hover,
-.header-logos-nav-list.current {
+.header-logos-nav ul li a:hover,
+.header-logos-nav ul li a.current {
 	background: url(../img/bg_stripe.svg);
 }
 
@@ -93,6 +93,7 @@
 	height: 31px;
 	margin: auto;
 	text-align: center;
+	font-family: 'Raleway';
 }
 
 .header-logos-nav-list-head {
