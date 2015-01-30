@@ -28,10 +28,24 @@
     vertical-align: bottom; }
 
 .kv-outer {
+  height: 350px;
   margin-top: 3px;
   margin-bottom: 3px;
   border-top: 3px solid #181818;
-  border-bottom: 3px solid #181818; }
+  border-bottom: 3px solid #181818;
+  overflow: hidden; }
+
+.kv-inner {
+  position: relative; }
+
+.kv-inner li {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.kv-inner li img {
+  display: block; }
 
 /*
 //////////////////////////////////////////////////////////////////////
