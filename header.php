@@ -4,15 +4,22 @@
 	<meta charset="UTF-8">
 	<title><?php wp_title( '|', true, 'right' ); bloginfo('name'); ?></title>
 	<!--[if lte IE 9]>
-	<script src="/js/html5shiv.js"></script>
-	<script src="/js/IE9.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/IE9.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/base.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/module.css">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page_blog.css">
+	<?php if ( is_home() && is_front_page() ) : ?>
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page_blog.css">
+	<?php elseif ( is_single() ) : ?>
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page_post.css">
+	<?php endif; ?>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/earlyaccess/notosansjapanese.css' rel='stylesheet' type='text/css'>
+	<?php if ( !is_home() && !is_front_page() ) : ?>
+		<link href='http://fonts.googleapis.com/earlyaccess/notosansjapanese.css' rel='stylesheet' type='text/css'>
+	<?php endif; ?>
+	<?php if ( is_singular() ) wp_enqueue_script( "comment-reply" ); ?>
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -41,7 +48,7 @@
 				<nav class="header-logos-nav">
 					<ul class="cf">
 						<li>
-							<a href="#" class="header-logos-nav-list">
+							<a href="<?php bloginfo('url'); ?>" <?php if (is_single()): ?> class="current" <?php endif; ?>>
 								<div class="header-logos-nav-list-inner">
 									<p class="header-logos-nav-list-head">ZEN-CODING</p>
 									<p class="header-logos-nav-list-ruby">ブログ</p>
@@ -49,7 +56,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" class="header-logos-nav-list">
+							<a href="#" class="header-logos-nav-list" >
 								<div class="header-logos-nav-list-inner">
 									<p class="header-logos-nav-list-head">ABOUT TENSHIN</p>
 									<p class="header-logos-nav-list-ruby">天心工房について</p>

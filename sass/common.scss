@@ -23,6 +23,11 @@
 	background-color: #181818;
 }
 
+.header-logos {
+	margin-top: 3px;
+	border-top: 3px solid #181818;
+}
+
 .header-logos-inner {
 	position: relative;
 	height: 210px;
@@ -56,7 +61,8 @@
 	}
 }
 
-.header-logos-nav-list {
+.header-logos-nav ul li a,
+.header-logos-nav ul li span {
 	position: relative;
 	display: block;
 	width: 150px;
