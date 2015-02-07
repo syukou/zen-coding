@@ -1,408 +1,249 @@
-<!doctype html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>Zen-Coding</title>
-    <!--[if lte IE 9]>
-    <script src="/js/html5shiv.js"></script>
-    <script src="/js/IE9.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/base.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/module.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/page_blog.css">
-</head>
-<body>
-<div class="cm-wrapper">
-<header class="header">
-    <div class="header-nav">
-        <div class="cm-inner cf">
-            <h1 class="header-nav-desc">
-                「もの」創りに<span class="fcR">心</span>を。 天心工房 - WEBと禅 -
-            </h1>
-            <nav class="header-nav-list">
-                <li><a href="#">天心ブログ</a></li>
-                <li><a href="#">天心工房について</a></li>
-                <li><a href="#">制作実績</a></li>
-                <li><a href="#">動画工房</a></li>
-                <li><a href="#">お問い合わせ</a></li>
-                <li><a href="#">Link</a></li>
-            </nav>
-        </div>
-    </div>
-    <div class="header-logos">
-        <div class="cm-inner cf">
-            <p class="header-logos-img"><a href="#">天心工房</a></p>
-            <ul class="header-logos-social cf">
-                <li><a href="#" class="facebook">facebook</a></li>
-                <li><a href="#" class="twitter">Twitter</a></li>
-                <li><a href="#" class="google">Google+</a></li>
-                <li><a href="#" class="pocket">Pocket</a></li>
-                <li><a href="#" class="rss">RSS</a></li>
-            </ul>
-        </div>
-    </div>
-</header>
-<div class="kv">
-    <div class="cm-inner">
-        <figure><img src="<?php echo get_template_directory_uri(); ?>/img/blog/kv01.png" alt="キービジュアル"></figure>
-    </div>
-</div>
-<main class="main">
-<div class="cm-inner cf">
-<div class="main-side-left">
-    <section class="main-side-category sideList">
-        <h2 class="main-side-category-head sideList__head">カテゴリー</h2>
-        <ul class="sideList__body">
-            <li><a href="#">すべて</a></li>
-            <li><a href="#">Javascript</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">Web</a></li>
-            <li><a href="#">Wordpress</a></li>
-            <li><a href="#">ライフスタイル</a></li>
-        </ul>
-    </section>
-    <section class="main-side-ranking sideRanking">
-        <h2 class="main-side-ranking-head sideRanking__head">人気記事</h2>
-        <ul class="sideRanking__body">
-            <li>
-                <a href="#">
-                    <div class="sideRanking__body-inner cf">
-                        <div class="sideRanking__body-inner-thum">
-                            <span class="sideRanking__body-inner-thum-rank rank1"></span>
+<?php get_header(); ?>
+	<div class="kv">
+		<div class="kv-outer" id="jsi-carousel-wrapper">
+			<ul class="cm-inner kv-inner cf" id="jsi-carousel-container">
+				<li><img src="<?php echo get_template_directory_uri(); ?>/img/blog/kv01.png" alt="キービジュアル"></li>
+				<li><img src="<?php echo get_template_directory_uri(); ?>/img/blog/kv02.png" alt="キービジュアル2"></li>
+				<li><img src="<?php echo get_template_directory_uri(); ?>/img/blog/kv03.png" alt="キービジュアル3"></li>
+				<li><img src="<?php echo get_template_directory_uri(); ?>/img/blog/kv04.png" alt="キービジュアル4"></li>
+			</ul>
+		</div>
+	</div>
+	<main class="main">
+		<div class="cm-inner cf">
 
-                            <p class="sideRanking__body-inner-thum-img"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/ranking_thum_01.png" alt="">
-                            </p>
-                        </div>
-                        <p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <div class="sideRanking__body-inner cf">
-                        <div class="sideRanking__body-inner-thum">
-                            <span class="sideRanking__body-inner-thum-rank rank2"></span>
+			<?php get_sidebar(); ?>
 
-                            <p class="sideRanking__body-inner-thum-img"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/ranking_thum_01.png" alt="">
-                            </p>
-                        </div>
-                        <p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <div class="sideRanking__body-inner cf">
-                        <div class="sideRanking__body-inner-thum">
-                            <span class="sideRanking__body-inner-thum-rank rank3"></span>
-
-                            <p class="sideRanking__body-inner-thum-img"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/ranking_thum_01.png" alt="">
-                            </p>
-                        </div>
-                        <p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <div class="sideRanking__body-inner cf">
-                        <div class="sideRanking__body-inner-thum">
-                            <span class="sideRanking__body-inner-thum-rank rank_low"></span>
-
-                            <p class="sideRanking__body-inner-thum-img"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/ranking_thum_01.png" alt="">
-                            </p>
-                        </div>
-                        <p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <div class="sideRanking__body-inner cf">
-                        <div class="sideRanking__body-inner-thum">
-                            <span class="sideRanking__body-inner-thum-rank rank_low"></span>
-
-                            <p class="sideRanking__body-inner-thum-img"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/ranking_thum_01.png" alt="">
-                            </p>
-                        </div>
-                        <p class="sideRanking__body-inner-info">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </section>
-</div>
-<div class="main-contents">
-    <section class="newpost">
-        <h2 class="newpost-head">
-            最新ブログ
-        </h2>
-
-        <div class="newpost-body">
-            <a href="#">
-                <p class="newpost-body-thum">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/blog/newpost_thum.png" alt="新着記事サムネイル">
-                </p>
-
-                <div class="newpost-body-info">
-                    <div class="newpost-body-info-detail cf">
-                        <ul class="newpost-body-info-detail-category cf">
-                            <li class="category-tag cat-html">HTML</li>
-                            <li class="category-tag cat-js">Javascript</li>
-                        </ul>
-                        <time class="newpost-body-info-detail-date">
-                            2014.12.29
-                        </time>
-                    </div>
-                    <h3 class="newpost-body-info-head">
-                        記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
-                    </h3>
-                </div>
-            </a>
-        </div>
-    </section>
-    <div class="postlist">
-        <article class="postlist-block">
-            <a href="#">
-                <div class="postlist-block-inner cf">
-                    <p class="postlist-block-thum">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
-                    </p>
-
-                    <div class="postlist-block-info">
-                        <div class="postlist-block-info-detail cf">
-                            <time class="postlist-block-info-detail-date">
-                                2014.12.29
-                            </time>
-                            <ul class="postlist-block-info-detail-category">
-                                <li class="category-tag cat-html">HTML</li>
-                                <li class="category-tag cat-js">Javascript</li>
-                            </ul>
-                        </div>
-                        <h3 class="postlist-block-info-head">
-                            記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
-                        </h3>
-                    </div>
-                </div>
-            </a>
-        </article>
-        <article class="postlist-block">
-            <a href="#">
-                <div class="postlist-block-inner cf">
-                    <p class="postlist-block-thum">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
-                    </p>
-
-                    <div class="postlist-block-info">
-                        <div class="postlist-block-info-detail cf">
-                            <ul class="postlist-block-info-detail-category">
-                                <li class="category-tag cat-html">HTML</li>
-                                <li class="category-tag cat-js">Javascript</li>
-                            </ul>
-                            <time class="postlist-block-info-detail-date">
-                                2014.12.29
-                            </time>
-                        </div>
-                        <h3 class="postlist-block-info-head">
-                            記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
-                        </h3>
-                    </div>
-                </div>
-            </a>
-        </article>
-        <article class="postlist-block">
-            <a href="#">
-                <div class="postlist-block-inner cf">
-                    <p class="postlist-block-thum">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
-                    </p>
-
-                    <div class="postlist-block-info">
-                        <div class="postlist-block-info-detail cf">
-                            <ul class="postlist-block-info-detail-category">
-                                <li class="category-tag cat-html">HTML</li>
-                                <li class="category-tag cat-js">Javascript</li>
-                            </ul>
-                            <time class="postlist-block-info-detail-date">
-                                2014.12.29
-                            </time>
-                        </div>
-                        <h3 class="postlist-block-info-head">
-                            記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
-                        </h3>
-                    </div>
-                </div>
-            </a>
-        </article>
-        <article class="postlist-block">
-            <a href="#">
-                <div class="postlist-block-inner cf">
-                    <p class="postlist-block-thum">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
-                    </p>
-
-                    <div class="postlist-block-info">
-                        <div class="postlist-block-info-detail cf">
-                            <ul class="postlist-block-info-detail-category">
-                                <li class="category-tag cat-html">HTML</li>
-                                <li class="category-tag cat-js">Javascript</li>
-                            </ul>
-                            <time class="postlist-block-info-detail-date">
-                                2014.12.29
-                            </time>
-                        </div>
-                        <h3 class="postlist-block-info-head">
-                            記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
-                        </h3>
-                    </div>
-                </div>
-            </a>
-        </article>
-        <article class="postlist-block">
-            <a href="#">
-                <div class="postlist-block-inner cf">
-                    <p class="postlist-block-thum">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
-                    </p>
-
-                    <div class="postlist-block-info">
-                        <div class="postlist-block-info-detail cf">
-                            <ul class="postlist-block-info-detail-category">
-                                <li class="category-tag cat-html">HTML</li>
-                                <li class="category-tag cat-js">Javascript</li>
-                            </ul>
-                            <time class="postlist-block-info-detail-date">
-                                2014.12.29
-                            </time>
-                        </div>
-                        <h3 class="postlist-block-info-head">
-                            記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
-                        </h3>
-                    </div>
-                </div>
-            </a>
-        </article>
-        <div class="postlist-more">
-            <div class="postlist-more-btn">
-                <a href="#">次の10件をみる</a>
-            </div>
-            <ul class="postlist-more-list">
-                <li><a href="#"><span>＜</span></a></li>
-                <li><a href="#"><span>1</span></a></li>
-                <li><a href="#"><span>2</span></a></li>
-                <li><a href="#"><span>3</span></a></li>
-                <li><a href="#"><span>4</span></a></li>
-                <li><a href="#"><span>5</span></a></li>
-                <li><a href="#"><span>6</span></a></li>
-                <li><a href="#"><span>99</span></a></li>
-                <li><a href="#"><span>＞</span></a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="main-side-right">
-    <section class="pickup">
-        <h2 class="pickup__head">
-            今週のおすすめ記事
-        </h2>
-
-        <div class="pickup__list">
-            <article class="pickup__list-block">
-                <a href="#">
-                    <p class="pickup__list-block-thum"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
-
-                    <div class="pickup__list-block-desc">
-                        <ul class="pickup__list-block-desc-text-category">
-                            <li class="category-tag cat-html">HTML</li>
-                            <li class="category-tag cat-js">Javascript</li>
-                        </ul>
-                        </ul>
-                        <p class="pickup__list-block-desc-text">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        </p>
-                    </div>
-                </a>
-            </article>
-            <article class="pickup__list-block">
-                <a href="#">
-                    <p class="pickup__list-block-thum"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
-
-                    <div class="pickup__list-block-desc">
-                        <ul class="pickup__list-block-desc-text-category">
-                            <li class="category-tag cat-html">HTML</li>
-                            <li class="category-tag cat-js">Javascript</li>
-                        </ul>
-                        <p class="pickup__list-block-desc-text">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        </p>
-                    </div>
-                </a>
-            </article>
-            <article class="pickup__list-block">
-                <a href="#">
-                    <p class="pickup__list-block-thum"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
-
-                    <div class="pickup__list-block-desc">
-                        <ul class="pickup__list-block-desc-text-category">
-                            <li class="category-tag cat-html">HTML</li>
-                            <li class="category-tag cat-js">Javascript</li>
-                        </ul>
-                        <p class="pickup__list-block-desc-text">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        </p>
-                    </div>
-                </a>
-            </article>
-            <article class="pickup__list-block">
-                <a href="#">
-                    <p class="pickup__list-block-thum"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
-
-                    <div class="pickup__list-block-desc">
-                        <ul class="pickup__list-block-desc-text-category">
-                            <li class="category-tag cat-html">HTML</li>
-                            <li class="category-tag cat-js">Javascript</li>
-                        </ul>
-                        <p class="pickup__list-block-desc-text">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        </p>
-                    </div>
-                </a>
-            </article>
-            <article class="pickup__list-block">
-                <a href="#">
-                    <p class="pickup__list-block-thum"><img src="<?php echo get_template_directory_uri(); ?>/img/blog/pickup_thum_01.png" alt="おすすめ記事"></p>
-
-                    <div class="pickup__list-block-desc">
-                        <ul class="pickup__list-block-desc-text-category">
-                            <li class="category-tag cat-html">HTML</li>
-                            <li class="category-tag cat-js">Javascript</li>
-                        </ul>
-                        <p class="pickup__list-block-desc-text">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        </p>
-                    </div>
-                </a>
-            </article>
-        </div>
-    </section>
-</div>
-</div>
-</main>
-<section class="works">
-
-</section>
-<div class="footnav">
-
-</div>
-<footer class="footer">
-    <div class="cm-inner">
-        <div class="footer-left">
-            <p><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/foot_logo_beside_w.svg" alt="" width="119" height="40"></a></p>
-        </div>
-    </div>
-</footer>
-</div>
-</body>
-</html>
+			<div class="main-contents">
+				<h2 class="main-contents-head">
+					<span>新着ブログ</span>
+				</h2>
+				<article class="newpost">
+					<div class="newpost-body">
+						<a href="#" class="cf">
+							<p class="newpost-body-thum">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/blog/newpost_thum.png" alt="新着記事サムネイル">
+							</p>
+							<div class="newpost-body-info">
+								<div class="newpost-body-info-detail cf">
+									<ul class="newpost-body-info-detail-category cf">
+										<li class="category-tag cat-html">HTML</li>
+									</ul>
+									<time class="newpost-body-info-detail-date">
+										2014.12.29
+									</time>
+								</div>
+								<h3 class="newpost-body-info-head">
+									記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
+								</h3>
+								<p class="newpost-body-info-desc">
+									テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+								</p>
+							</div>
+						</a>
+					</div>
+				</article>
+				<div class="postlist">
+					<article class="postlist-block">
+						<a href="#">
+							<div class="postlist-block-inner cf">
+								<p class="postlist-block-thum">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
+								</p>
+								<div class="postlist-block-info">
+									<div class="postlist-block-info-detail cf">
+										<time class="postlist-block-info-detail-date">
+											2014.12.29
+										</time>
+										<ul class="postlist-block-info-detail-category">
+											<li class="category-tag cat-html">HTML</li>
+											<li class="category-tag cat-js">Javascript</li>
+										</ul>
+									</div>
+									<h3 class="postlist-block-info-head">
+										記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
+									</h3>
+									<p class="postlist-block-info">
+										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+									</p>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="postlist-block">
+						<a href="#">
+							<div class="postlist-block-inner cf">
+								<p class="postlist-block-thum">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
+								</p>
+								<div class="postlist-block-info">
+									<div class="postlist-block-info-detail cf">
+										<ul class="postlist-block-info-detail-category">
+											<li class="category-tag cat-html">HTML</li>
+											<li class="category-tag cat-js">Javascript</li>
+										</ul>
+										<time class="postlist-block-info-detail-date">
+											2014.12.29
+										</time>
+									</div>
+									<h3 class="postlist-block-info-head">
+										記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
+									</h3>
+									<p class="postlist-block-info">
+										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+									</p>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="postlist-block">
+						<a href="#">
+							<div class="postlist-block-inner cf">
+								<p class="postlist-block-thum">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
+								</p>
+								<div class="postlist-block-info">
+									<div class="postlist-block-info-detail cf">
+										<ul class="postlist-block-info-detail-category">
+											<li class="category-tag cat-html">HTML</li>
+											<li class="category-tag cat-js">Javascript</li>
+										</ul>
+										<time class="postlist-block-info-detail-date">
+											2014.12.29
+										</time>
+									</div>
+									<h3 class="postlist-block-info-head">
+										記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
+									</h3>
+									<p class="postlist-block-info">
+										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+									</p>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="postlist-block">
+						<a href="#">
+							<div class="postlist-block-inner cf">
+								<p class="postlist-block-thum">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
+								</p>
+								<div class="postlist-block-info">
+									<div class="postlist-block-info-detail cf">
+										<ul class="postlist-block-info-detail-category">
+											<li class="category-tag cat-html">HTML</li>
+											<li class="category-tag cat-js">Javascript</li>
+										</ul>
+										<time class="postlist-block-info-detail-date">
+											2014.12.29
+										</time>
+									</div>
+									<h3 class="postlist-block-info-head">
+										記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
+									</h3>
+									<p class="postlist-block-info">
+										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+									</p>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="postlist-block">
+						<a href="#">
+							<div class="postlist-block-inner cf">
+								<p class="postlist-block-thum">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
+								</p>
+								<div class="postlist-block-info">
+									<div class="postlist-block-info-detail cf">
+										<ul class="postlist-block-info-detail-category">
+											<li class="category-tag cat-html">HTML</li>
+											<li class="category-tag cat-js">Javascript</li>
+										</ul>
+										<time class="postlist-block-info-detail-date">
+											2014.12.29
+										</time>
+									</div>
+									<h3 class="postlist-block-info-head">
+										記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
+									</h3>
+									<p class="postlist-block-info">
+										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+									</p>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="postlist-block">
+						<a href="#">
+							<div class="postlist-block-inner cf">
+								<p class="postlist-block-thum">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
+								</p>
+								<div class="postlist-block-info">
+									<div class="postlist-block-info-detail cf">
+										<ul class="postlist-block-info-detail-category">
+											<li class="category-tag cat-html">HTML</li>
+											<li class="category-tag cat-js">Javascript</li>
+										</ul>
+										<time class="postlist-block-info-detail-date">
+											2014.12.29
+										</time>
+									</div>
+									<h3 class="postlist-block-info-head">
+										記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
+									</h3>
+									<p class="postlist-block-info">
+										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+									</p>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="postlist-block">
+						<a href="#">
+							<div class="postlist-block-inner cf">
+								<p class="postlist-block-thum">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/blog/post_thum.png" alt="記事サムネイル">
+								</p>
+								<div class="postlist-block-info">
+									<div class="postlist-block-info-detail cf">
+										<ul class="postlist-block-info-detail-category">
+											<li class="category-tag cat-html">HTML</li>
+											<li class="category-tag cat-js">Javascript</li>
+										</ul>
+										<time class="postlist-block-info-detail-date">
+											2014.12.29
+										</time>
+									</div>
+									<h3 class="postlist-block-info-head">
+										記事タイトルタイトルタイトルタイトルタイトルタイトルタイトル
+									</h3>
+									<p class="postlist-block-info">
+										テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+									</p>
+								</div>
+							</div>
+						</a>
+					</article>
+					<div class="postlist-more">
+						<div class="postlist-more-btn">
+							<a href="#">次の10件をみる</a>
+						</div>
+						<ul class="postlist-more-list">
+							<li><a href="#"><span>＜</span></a></li>
+							<li><a href="#"><span>1</span></a></li>
+							<li><a href="#"><span>2</span></a></li>
+							<li><a href="#"><span>3</span></a></li>
+							<li><a href="#"><span>4</span></a></li>
+							<li><a href="#"><span>5</span></a></li>
+							<li><a href="#"><span>6</span></a></li>
+							<li><a href="#"><span>99</span></a></li>
+							<li><a href="#"><span>＞</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+<?php get_footer(); ?>
