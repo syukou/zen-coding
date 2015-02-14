@@ -10,16 +10,16 @@
 
 .header {
   position: relative;
-  border-bottom: 7px solid #181818;
+  border-bottom: 7px solid #627b43;
   background-color: #ffffff; }
 
 .header-upper {
   height: 7px;
-  background-color: #181818; }
+  background-color: #627b43; }
 
 .header-logos {
   margin-top: 3px;
-  border-top: 3px solid #181818; }
+  border-top: 3px solid #627b43; }
 
 .header-logos-inner {
   position: relative;
@@ -38,14 +38,14 @@
 .header-logos-nav {
   float: right; }
   .header-logos-nav ul {
-    border-left: 1px solid #181818;
-    border-right: 1px solid #181818; }
+    border-left: 1px solid #627b43;
+    border-right: 1px solid #627b43; }
     .header-logos-nav ul li {
       float: left;
       width: 150px;
       height: 210px; }
       .header-logos-nav ul li + li {
-        border-left: 1px solid #181818; }
+        border-left: 1px solid #627b43; }
 
 .header-logos-nav ul li a,
 .header-logos-nav ul li span {
@@ -98,7 +98,7 @@
 
 .footer {
   padding: 20px 0;
-  background-color: #181818; }
+  background-color: #627b43; }
 
 .btn-pagetotop {
   display: none;

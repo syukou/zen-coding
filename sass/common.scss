@@ -15,18 +15,18 @@
 
 .header {
 	position: relative;
-	border-bottom: 7px solid #181818;
+	border-bottom: 7px solid #627b43;
 	background-color: #ffffff;
 }
 
 .header-upper {
 	height: 7px;
-	background-color: #181818;
+	background-color: #627b43;
 }
 
 .header-logos {
 	margin-top: 3px;
-	border-top: 3px solid #181818;
+	border-top: 3px solid #627b43;
 }
 
 .header-logos-inner {
@@ -49,14 +49,14 @@
 .header-logos-nav {
 	float: right;
 	ul {
-		border-left: 1px solid #181818;
-		border-right: 1px solid #181818;
+		border-left: 1px solid #627b43;
+		border-right: 1px solid #627b43;
 		li {
 			float: left;
 			width: 150px;
 			height: 210px;
 			+ li {
-				border-left: 1px solid #181818;
+				border-left: 1px solid #627b43;
 			}
 		}
 	}
@@ -121,7 +121,7 @@
 
 .footer {
 	padding: 20px 0;
-	background-color: #181818;
+	background-color: #627b43;
 }
 
 .btn-pagetotop {
