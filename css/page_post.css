@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.header {
+  position: relative;
+  border-bottom: 7px solid #708a4f;
+  background: url(../img/husky_bg.png); }
+
 .main-side-left {
   float: left;
   width: 300px; }
@@ -192,8 +197,8 @@
 
 .related__head {
   padding: 12px 15px 12px 15px;
-  border-top: 3px solid #627b43;
-  border-bottom: 3px solid #627b43;
+  border-top: 3px solid #708a4f;
+  border-bottom: 3px solid #708a4f;
   color: #000000;
   font-size: 16px;
   font-size: 1.6rem; }

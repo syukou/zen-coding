@@ -13,20 +13,14 @@
 	margin: 0 auto;
 }
 
-.header {
-	position: relative;
-	border-bottom: 7px solid #627b43;
-	background-color: #ffffff;
-}
-
 .header-upper {
 	height: 7px;
-	background-color: #627b43;
+	background-color: #708a4f;
 }
 
 .header-logos {
 	margin-top: 3px;
-	border-top: 3px solid #627b43;
+	border-top: 3px solid #708a4f;
 }
 
 .header-logos-inner {
@@ -49,14 +43,14 @@
 .header-logos-nav {
 	float: right;
 	ul {
-		border-left: 1px solid #627b43;
-		border-right: 1px solid #627b43;
+		border-left: 1px solid #708a4f;
+		border-right: 1px solid #708a4f;
 		li {
 			float: left;
 			width: 150px;
 			height: 210px;
 			+ li {
-				border-left: 1px solid #627b43;
+				border-left: 1px solid #708a4f;
 			}
 		}
 	}
@@ -68,6 +62,7 @@
 	display: block;
 	width: 150px;
 	height: 210px;
+	background: url(../img/husky_w_bg.png);
 
 	&:after {
 		content: "";
@@ -121,7 +116,7 @@
 
 .footer {
 	padding: 20px 0;
-	background-color: #627b43;
+	background-color: #708a4f;
 }
 
 .btn-pagetotop {

@@ -1,4 +1,11 @@
 @charset "UTF-8";
+.header {
+  position: relative;
+  width: 100%;
+  height: 265px;
+  z-index: 10;
+  background: url(../img/bg_head.png) no-repeat top center; }
+
 .main-side-left {
   float: left;
   width: 300px; }
@@ -22,7 +29,7 @@
     background: url(../img/husky_bg.png) center top fixed; }
 
 .kv {
-  border-bottom: 7px solid #627b43; }
+  border-bottom: 7px solid #708a4f; }
   .kv img {
     vertical-align: bottom; }
 
@@ -30,8 +37,8 @@
   height: 350px;
   margin-top: 3px;
   margin-bottom: 3px;
-  border-top: 3px solid #627b43;
-  border-bottom: 3px solid #627b43;
+  border-top: 3px solid #708a4f;
+  border-bottom: 3px solid #708a4f;
   overflow: hidden; }
 
 .kv-inner {
@@ -163,7 +170,7 @@
   display: block;
   padding: 17px 15px;
   border-radius: 5px;
-  background-color: #627b43;
+  background-color: #708a4f;
   color: #ffffff;
   font-size: 16px;
   font-size: 1.6rem;
