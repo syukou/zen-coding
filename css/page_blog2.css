@@ -1,0 +1,232 @@
+@charset "UTF-8";
+.header {
+  position: relative;
+  width: 100%;
+  height: 265px;
+  z-index: 10;
+  background: url(../img/bg_head.png) no-repeat top center; }
+
+.main-side-left {
+  float: left;
+  width: 300px; }
+
+.main-contents {
+  float: left;
+  width: 860px;
+  margin-left: 40px; }
+
+.main-contents-head {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  background: #708a4f; }
+  .main-contents-head + .postlist {
+    margin-top: 40px; }
+  .main-contents-head span {
+    display: inline-block;
+    padding: 10px 30px;
+    background: url(../img/husky_bg.png) center top fixed; }
+
+.kv {
+  border-bottom: 7px solid #708a4f; }
+  .kv img {
+    vertical-align: bottom; }
+
+.kv-outer {
+  height: 350px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-top: 3px solid #708a4f;
+  border-bottom: 3px solid #708a4f;
+  overflow: hidden; }
+
+.kv-inner {
+  position: relative; }
+
+.kv-inner li {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.kv-inner li img {
+  display: block; }
+
+/*
+//////////////////////////////////////////////////////////////////////
+新着記事
+//////////////////////////////////////////////////////////////////////
+*/
+.newpost-body a {
+  display: block;
+  padding: 40px 0;
+  -webkit-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  transition: background-color 0.3s; }
+  .newpost-body a:hover {
+    background-color: #e7e7e7; }
+
+.newpost-body-thum {
+  float: left;
+  width: 400px; }
+
+.newpost-body-info {
+  float: left;
+  width: 420px; }
+
+.newpost-body-thum + .newpost-body-info {
+  margin-left: 20px; }
+
+.newpost-body-info-detail + .newpost-body-info-head {
+  margin-top: 20px; }
+
+.newpost-body-info-head {
+  color: #000000;
+  font-size: 19px;
+  font-size: 1.9rem;
+  font-weight: bold;
+  line-height: 1.4; }
+  .newpost-body-info-head + .newpost-body-info-desc {
+    margin-top: 15px; }
+
+.newpost-body-info-desc {
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1.5; }
+
+.newpost-body-info-detail-category {
+  float: right; }
+  .newpost-body-info-detail-category li {
+    display: inline-block; }
+    .newpost-body-info-detail-category li + li {
+      margin-left: 5px; }
+
+.newpost-body-info-detail-date {
+  float: left;
+  color: #000000;
+  font-size: 19px;
+  font-size: 1.9rem; }
+
+/*
+//////////////////////////////////////////////////////////////////////
+投稿一覧
+//////////////////////////////////////////////////////////////////////
+*/
+.postlist {
+  margin-right: -25px; }
+
+.postlist-block {
+  float: left;
+  width: 268px;
+  display: block;
+  margin: 0 25px 25px 0;
+  border: 1px solid #aeb492;
+  box-sizing: border-box; }
+
+.postlist-block a {
+  display: block;
+  padding: 18px;
+  background-color: #ffffff;
+  box-sizing: border-box; }
+
+.postlist-block-head {
+  margin: 0 0 15px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 1.2; }
+
+.postlist-block-thum {
+  margin: 0 0 15px;
+  text-align: center; }
+
+.postlist-block-thum img {
+  max-width: 230px;
+  width: auto !important; }
+
+.postlist-block-info {
+  color: #000000;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.7; }
+
+.postlist-block-info-date {
+  display: block;
+  margin: 0 0 5px;
+  line-height: 1; }
+
+/*
+//////////////////////////////////////////////////////////////////////
+次の投稿ボタン
+//////////////////////////////////////////////////////////////////////
+*/
+.postlist-more {
+  margin-top: 20px; }
+
+.postlist-more-btn a {
+  position: relative;
+  display: block;
+  padding: 17px 15px;
+  border-radius: 5px;
+  background-color: #708a4f;
+  color: #ffffff;
+  font-size: 16px;
+  font-size: 1.6rem;
+  text-align: center;
+  box-shadow: 0 2px 4px #b6b6b6;
+  -webkit-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  transition: background-color 0.3s; }
+  .postlist-more-btn a:hover {
+    background-color: #FF8C00; }
+  .postlist-more-btn a:after {
+    content: "";
+    position: absolute;
+    right: 25px;
+    top: 23px;
+    width: 15px;
+    height: 15px;
+    margin-top: -5px;
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg); }
+
+.postlist-more-list {
+  margin-top: 20px;
+  text-align: center; }
+  .postlist-more-list li {
+    display: inline-block; }
+    .postlist-more-list li + li {
+      margin-left: 10px; }
+    .postlist-more-list li a {
+      position: relative;
+      display: block;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #666666;
+      border-radius: 5px;
+      font-size: 17px;
+      font-size: 1.7rem;
+      box-sizing: border-box;
+      box-shadow: 0 2px 4px #b6b6b6;
+      -webkit-transition: background-color 0.3s;
+      -ms-transition: background-color 0.3s;
+      -moz-transition: background-color 0.3s;
+      transition: background-color 0.3s; }
+      .postlist-more-list li a:hover {
+        background-color: #FF8C00; }
+      .postlist-more-list li a span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 35px;
+        height: 15px; }

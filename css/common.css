@@ -9,12 +9,8 @@
   margin: 0 auto; }
 
 .header-upper {
-  height: 7px;
+  height: 10px;
   background-color: #708a4f; }
-
-.header-logos {
-  margin-top: 3px;
-  border-top: 3px solid #708a4f; }
 
 .header-logos-inner {
   position: relative;
