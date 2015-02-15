@@ -207,7 +207,7 @@
 /*
 新着記事
 ////////////////////////////////////////////////////////////////////*/
-.postlist-block-tag {
+.blog-list-tag {
 	position: relative;
 	width: 100px;
 	top: -26px;
@@ -223,7 +223,7 @@
 	line-height: 25px;
 }
 
-.postlist-block-tag:before {
+.blog-list-tag:before {
 	position: absolute;
 	top: -28%;
 	left: -7px;
@@ -232,7 +232,7 @@
 	z-index: -1;
 }
 
-.postlist-block-tag:after {
+.blog-list-tag:after {
 	position: absolute;
 	top: -28%;
 	right: -7px;
@@ -242,7 +242,7 @@
 }
 
 //タグ色定義
-.postlist-block-tag.html {
+.blog-list-tag.html {
 	background-color: lightcoral;
 	background: -webkit-gradient(linear, left top, left bottom, from(#f29c96), to(lightcoral));
 	background: -webkit-linear-gradient(#f29c96, lightcoral);
@@ -252,15 +252,15 @@
 	color: indianred;
 }
 
-.postlist-block-tag.html:before {
+.blog-list-tag.html:before {
 	border-bottom-color: #DA6767;
 }
 
-.postlist-block-tag.html:after {
+.blog-list-tag.html:after {
 	border-bottom-color: #DA6767;
 }
 
-.postlist-block-tag.js {
+.blog-list-tag.js {
 	background-color: #2b7cf0;
 	background: -webkit-gradient(linear, left top, left bottom, from(#28c0f2), to(#2b7cf0));
 	background: -webkit-linear-gradient(#28c0f2, #2b7cf0);
@@ -270,15 +270,15 @@
 	color: #225ccd;
 }
 
-.postlist-block-tag.js:before {
+.blog-list-tag.js:before {
 	border-bottom-color: #225ccd;
 }
 
-.postlist-block-tag.js:after {
+.blog-list-tag.js:after {
 	border-bottom-color: #225ccd;
 }
 
-.postlist-block-tag.css {
+.blog-list-tag.css {
 	background-color: #3cdc43;
 	background: -webkit-gradient(linear, left top, left bottom, from(#3cdc43), to(#42ad44));
 	background: -webkit-linear-gradient(#3cdc43, #42ad44);
@@ -288,15 +288,15 @@
 	color: #1a9625;
 }
 
-.postlist-block-tag.css:before {
+.blog-list-tag.css:before {
 	border-bottom-color: #1a9625;
 }
 
-.postlist-block-tag.css:after {
+.blog-list-tag.css:after {
 	border-bottom-color: #1a9625;
 }
 
-.postlist-block-tag.zen {
+.blog-list-tag.zen {
 	 background-color: #6f6f6f;
 	 background: -webkit-gradient(linear, left top, left bottom, from(#aeaeae), to(#6f6f6f));
 	 background: -webkit-linear-gradient(#aeaeae, #6f6f6f);
@@ -306,15 +306,15 @@
 	 color: #1b1b1b;
  }
 
-.postlist-block-tag.zen:before {
+.blog-list-tag.zen:before {
 	border-bottom-color: #1b1b1b;
 }
 
-.postlist-block-tag.zen:after {
+.blog-list-tag.zen:after {
 	border-bottom-color: #1b1b1b;
 }
 
-.postlist-block-tag.web {
+.blog-list-tag.web {
 	background-color: #cea726;
 	background: -webkit-gradient(linear, left top, left bottom, from(#fcd229), to(#cea726));
 	background: -webkit-linear-gradient(#fcd229, #cea726);
@@ -324,15 +324,15 @@
 	color: #a68b1e;
 }
 
-.postlist-block-tag.web:before {
+.blog-list-tag.web:before {
 	border-bottom-color: #a68b1e;
 }
 
-.postlist-block-tag.web:after {
+.blog-list-tag.web:after {
 	border-bottom-color: #a68b1e;
 }
 
-.postlist-block-tag.wp {
+.blog-list-tag.wp {
 	background-color: #ce35c3;
 	background: -webkit-gradient(linear, left top, left bottom, from(#ec67e4), to(#ce35c3));
 	background: -webkit-linear-gradient(#ec67e4, #ce35c3);
@@ -342,15 +342,15 @@
 	color: #a62a7d;
 }
 
-.postlist-block-tag.wp:before {
+.blog-list-tag.wp:before {
 	border-bottom-color: #a62a7d;
 }
 
-.postlist-block-tag.wp:after {
+.blog-list-tag.wp:after {
 	border-bottom-color: #a62a7d;
 }
 
-.postlist-block-tag.days {
+.blog-list-tag.days {
 	background-color: #e04d10;
 	background: -webkit-gradient(linear, left top, left bottom, from(#f6781a), to(#e04d10));
 	background: -webkit-linear-gradient(#f6781a, #e04d10);
@@ -360,10 +360,10 @@
 	color: #a61f0f;
 }
 
-.postlist-block-tag.days:before {
+.blog-list-tag.days:before {
 	border-bottom-color: #a61f0f;
 }
 
-.postlist-block-tag.days:after {
+.blog-list-tag.days:after {
 	border-bottom-color: #a61f0f;
 }
