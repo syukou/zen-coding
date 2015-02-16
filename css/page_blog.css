@@ -38,16 +38,15 @@ header
 .header {
   position: relative;
   width: 100%;
-  height: 295px;
+  height: 214px;
   z-index: 10;
   border-top: 15px solid #708a4f;
-  background: url(../img/bg_header.png) no-repeat top center;
-  background-size: 1200px 295px; }
+  background: url(../img/bg_head.png) no-repeat top center; }
 
 .header-logo {
   position: absolute;
   left: 0;
-  top: -75px;
+  top: -25px;
   right: 0;
   bottom: 0;
   width: 230px;
@@ -125,8 +124,8 @@ pickup
 */
 .pickup-list {
   float: left;
-  width: 185px;
-  margin-right: 18px; }
+  width: 180px;
+  margin-right: 24px; }
 
 .pickup-list:last-child {
   margin-right: 0; }
@@ -143,24 +142,42 @@ pickup
 ranking
 //////////////////////////////////////////////////////////////////////
 */
-.ranking-list {
+.ranking-top-list {
   float: left;
   width: 218px;
   margin-right: 27px; }
 
-.ranking-list:last-child {
+.ranking-top-list:last-child {
   margin-right: 0; }
 
-.ranking-list-image img {
+.ranking-top-list-image img {
   width: 100%;
   height: auto; }
 
-.ranking-list a {
+.ranking-top-list a {
   display: block; }
 
-.ranking-list-head {
+.ranking-top-list-head {
   font-size: 15px;
   font-size: 1.5rem;
+  line-height: 1.5;
+  padding-top: 13px;
+  font-family: 'quicksand'; }
+
+.ranking-top + .ranking-under {
+  margin-top: 30px; }
+
+.ranking-under-list {
+  float: left;
+  width: 185px;
+  margin-right: 18px; }
+
+.ranking-under-list:last-child {
+  margin-right: 0; }
+
+.ranking-under-list-head {
+  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 1.5;
   padding-top: 13px;
   font-family: 'quicksand'; }
