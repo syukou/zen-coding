@@ -43,8 +43,7 @@
   position: relative;
   display: block;
   width: 150px;
-  height: 210px;
-  background: url(../img/husky_w_bg.png); }
+  height: 210px; }
   .header-logos-nav ul li a:after,
   .header-logos-nav ul li span:after {
     content: "";
@@ -86,7 +85,11 @@
   font-size: 1rem; }
 
 .main {
-  margin: 50px 0 120px; }
+  background: url(../img/bg/bg-base.png); }
+
+.main-inner {
+  padding: 50px 0 120px;
+  background: url(../img/bg/bg-home.png); }
 
 .footer {
   padding: 20px 0;

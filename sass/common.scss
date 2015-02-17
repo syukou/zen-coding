@@ -57,7 +57,6 @@
 	display: block;
 	width: 150px;
 	height: 210px;
-	background: url(../img/husky_w_bg.png);
 
 	&:after {
 		content: "";
@@ -106,7 +105,12 @@
 }
 
 .main {
-	margin: 50px 0 120px;
+	background: url(../img/bg/bg-base.png);
+}
+
+.main-inner {
+	padding: 50px 0 120px;
+	background: url(../img/bg/bg-home.png);
 }
 
 .footer {

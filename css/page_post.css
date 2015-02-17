@@ -2,7 +2,7 @@
 .header {
   position: relative;
   border-bottom: 7px solid #708a4f;
-  background: url(../img/husky_bg.png); }
+  background-color: #ffffff; }
 
 .main-side-left {
   float: left;
