@@ -14,7 +14,7 @@
 }
 
 .header-upper {
-	height: 7px;
+	height: 15px;
 	background-color: #708a4f;
 }
 
@@ -25,13 +25,13 @@
 
 .header-logos-img {
 	position: absolute;
-	left: 65px;
-	top: 58px;
+	left: 25px;
+	top: 45px;
 	a {
 		display: block;
 		float: left;
-		width: 300px;
-		height: 97px;
+		width: 350px;
+		height: 118px;
 	}
 }
 
@@ -62,7 +62,7 @@
 		content: "";
 		position: absolute;
 		left: 59px;
-		bottom: 40px;
+		bottom: 50px;
 		width: 30px;
 		height: 30px;
 		background: url(../img/icon/icon_gnav.svg) no-repeat;
@@ -81,7 +81,7 @@
 
 .header-logos-nav-list-inner {
 	position: absolute;
-	top: 0;
+	top: -30px;
 	right: 0;
 	bottom: 0;
 	left: 0;
