@@ -24,17 +24,6 @@
 	margin-left: 40px;
 }
 
-.blog-wrap {
-	margin-right: -25px;
-}
-
-.blog-list {
-	float: left;
-	width: 268px;
-	display: block;
-	margin: 0 25px 25px 0;
-}
-
 .main-contents-head {
 	margin-bottom: 40px;
 	padding: 10px 15px;
@@ -47,7 +36,55 @@
 
 /*
 //////////////////////////////////////////////////////////////////////
-記事
+記事リスト
+//////////////////////////////////////////////////////////////////////
+*/
+.blog-wrap {
+	margin-right: -40px;
+	overflow: hidden;
+}
+.blog-list {
+	float: left;
+	width: 430px;
+	margin: 0 20px 40px 0;
+}
+.blog-list a {
+	display: block;
+	-webkit-transition: background-color 0.3s;
+	-ms-transition: background-color 0.3s;
+	-moz-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+
+	&:hover {
+		background-color: #d8d8d8;
+	}
+}
+
+.blog-list-thum {
+	float: left;
+}
+
+.blog-list-info {
+	float: left;
+	width: 220px;
+}
+
+.blog-list-thum + .blog-list-info {
+	margin-left: 10px;
+}
+
+.blog-list-info-head {
+	margin-top: 10px;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: bold;
+	line-height: 1.6;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+/*
+//////////////////////////////////////////////////////////////////////
+記事本文
 //////////////////////////////////////////////////////////////////////
 */
 
@@ -287,7 +324,7 @@
 		-moz-transition: background-color 0.3s;
 		transition: background-color 0.3s;
 		&:hover {
-			background-color: #e7e7e7;
+			background-color: #d8d8d8;
 		}
 	}
 }

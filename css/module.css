@@ -44,7 +44,7 @@
       -moz-transform: rotate(45deg);
       transform: rotate(45deg); }
     .sideList__body li a:hover {
-      background-color: #e7e7e7; }
+      background-color: #d8d8d8; }
 
 .main-side-left > section + section {
   margin-top: 50px; }
@@ -72,7 +72,7 @@
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s; }
     .sideRanking__body li a:hover {
-      background-color: #e7e7e7; }
+      background-color: #d8d8d8; }
 
 .sideRanking__body-inner {
   display: table; }
@@ -135,7 +135,7 @@
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s; }
     .pickup__list-block a:hover {
-      background-color: #e7e7e7; }
+      background-color: #d8d8d8; }
 
 .pickup__list-block-thum {
   display: table-cell;
@@ -309,54 +309,6 @@
 
 .blog-list-tag.days:after {
   border-bottom-color: #a61f0f; }
-
-/*
-//////////////////////////////////////////////////////////////////////
-blogListBlock
-//////////////////////////////////////////////////////////////////////
-*/
-.blog-list {
-  float: left;
-  width: 268px;
-  display: block;
-  margin: 0 16px 25px 16px;
-  border: 1px solid #dfdfdf;
-  box-sizing: border-box; }
-
-.blog-list a {
-  display: block;
-  padding: 18px;
-  background-color: #ffffff;
-  box-sizing: border-box;
-  box-shadow: 1px 1px 6px #7C7C7C; }
-
-.blog-list-head {
-  margin: 0 0 15px;
-  color: #434343;
-  font-size: 16px;
-  font-size: 1.6rem;
-  font-weight: normal !important;
-  line-height: 1.2; }
-
-.blog-list-thum {
-  margin: 0 0 15px;
-  text-align: center; }
-
-.blog-list-thum img {
-  max-width: 230px;
-  width: auto !important; }
-
-.blog-list-info {
-  color: #434343;
-  font-size: 14px;
-  font-size: 1.4rem;
-  line-height: 1.7; }
-
-.blog-list-info-date {
-  display: block;
-  margin: 0 0 5px;
-  color: #434343;
-  line-height: 1; }
 
 /*
 //////////////////////////////////////////////////////////////////////
