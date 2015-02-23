@@ -20,8 +20,7 @@
   margin-left: 40px; }
 
 .main-contents-head {
-  margin-bottom: 40px;
-  padding: 10px 15px;
+  padding: 15px;
   color: #ffffff;
   background-color: #708a4f;
   font-size: 16px;
@@ -39,11 +38,12 @@
 
 .blog-list {
   float: left;
-  width: 430px;
-  margin: 0 20px 40px 0; }
+  width: 420px;
+  margin: 0 20px 0 0; }
 
 .blog-list a {
   display: block;
+  padding: 25px 0;
   -webkit-transition: background-color 0.3s;
   -ms-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
@@ -51,14 +51,34 @@
   .blog-list a:hover {
     background-color: #d8d8d8; }
 
-.blog-list-thum {
+.blog-list-thums {
+  position: relative;
   float: left; }
+
+.blog-list-thums-tag {
+  display: table;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.blog-list-thums-tag span {
+  display: table-cell;
+  height: 22px;
+  padding: 0 15px;
+  border-left: 1px solid #fff;
+  background: #f3f3f3;
+  color: #434343;
+  font-size: 12px;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  text-align: center; }
 
 .blog-list-info {
   float: left;
-  width: 220px; }
+  width: 220px;
+  padding-top: 10px; }
 
-.blog-list-thum + .blog-list-info {
+.blog-list-thums + .blog-list-info {
   margin-left: 10px; }
 
 .blog-list-info-head {
@@ -69,6 +89,43 @@
   line-height: 1.6;
   -webkit-transition: color 0.3s;
   transition: color 0.3s; }
+
+.blog-list-info-date {
+  display: block;
+  font-size: 15px;
+  font-size: 1.5rem;
+  text-align: right;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.main-contents-catnum {
+  padding: 20px 0;
+  border-bottom: 1px solid #cccccc;
+  text-align: right; }
+  .main-contents-catnum span {
+    font-size: 14px;
+    font-size: 1.4rem; }
+  .main-contents-catnum span + span {
+    font-weight: bold; }
+
+.blog-list-info-social-list {
+  text-align: right; }
+
+.blog-list-info-social-list li {
+  display: inline-block; }
+
+.blog-list-info-social-list li + li {
+  padding-left: 15px; }
+
+.facebook-icon,
+.twitter-icon,
+.hatena-icon {
+  width: 25px;
+  height: 25px; }
+
+.facebook-icon {
+  background: url(../img/icon/icon_facebook.svg) no-repeat;
+  background-size: 25px 25px; }
 
 /*
 //////////////////////////////////////////////////////////////////////
