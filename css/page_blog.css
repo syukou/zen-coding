@@ -40,8 +40,8 @@ header
   width: 100%;
   height: 258px;
   z-index: 10;
-  border-top: 20px solid #708a4f;
-  background: url(../img/bg_head.png) no-repeat top center; }
+  border-top: 20px solid #85A063;
+  background: url(../img/bg_head_paper.png) no-repeat top center; }
 
 .header-logo {
   position: absolute;
@@ -49,17 +49,17 @@ header
   top: -25px;
   right: 0;
   bottom: 0;
-  width: 230px;
-  height: 165px;
+  width: 250px;
+  height: 189px;
   margin: auto; }
 
 .header-logo a {
   display: block;
-  width: 230px;
-  height: 165px;
+  width: 250px;
+  height: 189px;
   text-indent: -9999px;
-  background: url(../img/logo_circle.svg) no-repeat;
-  background-size: 230px 165px; }
+  background: url(../img/logo_sunmoon.svg) no-repeat;
+  background-size: 250px 189px; }
 
 .header-nav {
   position: absolute;

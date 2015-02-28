@@ -18,13 +18,13 @@
 
 .header-logos-img {
   position: absolute;
-  left: 25px;
-  top: 45px; }
+  left: 0px;
+  top: 25px; }
   .header-logos-img a {
     display: block;
     float: left;
-    width: 350px;
-    height: 118px; }
+    width: 416px;
+    height: 150px; }
 
 .header-logos-nav {
   float: right; }
