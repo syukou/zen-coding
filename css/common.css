@@ -19,12 +19,12 @@
 .header-logos-img {
   position: absolute;
   left: 0px;
-  top: 25px; }
+  top: 30px; }
   .header-logos-img a {
     display: block;
     float: left;
-    width: 416px;
-    height: 150px; }
+    width: 388;
+    height: 140px; }
 
 .header-logos-nav {
   float: right; }
