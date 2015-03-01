@@ -147,6 +147,9 @@ pickup
 ranking
 //////////////////////////////////////////////////////////////////////
 */
+.ranking-wrap {
+  margin: 0 -20px 0 -20px; }
+
 .ranking-top-list {
   float: left;
   width: 25%;
@@ -192,48 +195,117 @@ ranking
 
 /*
 //////////////////////////////////////////////////////////////////////
-blogListBlock
+New Post
 //////////////////////////////////////////////////////////////////////
 */
-.blog-list {
+.blog-top-newpost {
   float: left;
-  width: 268px;
-  display: block;
-  margin: 0 16px 25px 16px;
-  border: 1px solid #dfdfdf;
+  width: 40%;
+  padding: 0 20px 0;
   box-sizing: border-box; }
 
-.blog-list a {
+.blog-top-newpost-head {
+  margin-top: 10px;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.blog-top-newpost-info-date {
   display: block;
-  padding: 18px;
-  background-color: #ffffff;
-  box-sizing: border-box;
-  box-shadow: 1px 1px 6px #7C7C7C; }
+  margin-top: 10px;
+  font-size: 13px;
+  font-size: 1.3rem;
+  text-align: right;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
 
-.blog-list-head {
-  margin: 0 0 15px;
+.blog-top-newpost-info-detail {
+  margin-top: 5px;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.blog-top-newpost-thum {
+  padding: 10px;
+  background-color: #fff; }
+
+.blog-top-newpost-thum img {
+  width: 100%;
+  height: auto; }
+
+/*
+//////////////////////////////////////////////////////////////////////
+Blog
+//////////////////////////////////////////////////////////////////////
+*/
+.blog-top,
+.blog-under {
+  margin: 0 -20px 0 -20px; }
+
+.blog-top-secound {
+  float: left;
+  width: 60%; }
+
+.blog-top-secound .bloglist {
+  float: left;
+  width: 33.333%;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+.bloglist a {
+  display: block; }
+
+.bloglist-thum {
+  position: relative; }
+
+.bloglist-thum-tag {
+  display: table;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.bloglist-thum-tag span {
+  display: table-cell;
+  height: 22px;
+  padding: 0 15px;
+  border-left: 1px solid #fff;
+  background: #f3f3f3;
   color: #434343;
-  font-size: 16px;
-  font-size: 1.6rem;
-  font-weight: normal !important;
-  line-height: 1.2; }
-
-.blog-list-thum {
-  margin: 0 0 15px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  vertical-align: middle;
   text-align: center; }
 
-.blog-list-thum img {
-  max-width: 230px;
-  width: auto !important; }
+.bloglist-thum-img img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle; }
 
-.blog-list-info {
-  color: #434343;
+.bloglist-info-date {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+  font-size: 1.3rem;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.bloglist-info-head {
+  margin-top: 5px;
   font-size: 14px;
   font-size: 1.4rem;
-  line-height: 1.7; }
+  font-weight: bold;
+  line-height: 1.4;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
 
-.blog-list-info-date {
-  display: block;
-  margin: 0 0 5px;
-  color: #434343;
-  line-height: 1; }
+.blog-under-inner .bloglist {
+  float: left;
+  width: 20%;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  box-sizing: border-box; }
