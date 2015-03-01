@@ -2,8 +2,8 @@
 
 .header {
 	position: relative;
-	border-bottom: 7px solid #708a4f;
-	background: url(../img/header_bg_tile.png);
+	border-bottom: 7px solid #85A063;
+	background: url(../img/bg/bg_main.png);
 }
 
 .main-side-left {
@@ -27,7 +27,7 @@
 .main-contents-head {
 	padding: 15px;
 	color: #ffffff;
-	background-color: #708a4f;
+	background-color: #85A063;
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-weight: bold;
@@ -250,7 +250,7 @@
 		span {
 			display: inline-block;
 			padding: .2em 1em;
-			background-color: #e7e4df;
+			background: url(../img/bg/bg_main.png) left top;
 		}
 	}
 	ul {
@@ -370,8 +370,8 @@
 
 .related__head {
 	padding: 12px 15px 12px 15px;
-	border-top: 3px solid #708a4f;
-	border-bottom: 3px solid #708a4f;
+	border-top: 3px solid #85A063;
+	border-bottom: 3px solid #85A063;
 	color: #000000;
 	font-size: 16px;
 	font-size: 1.6rem;

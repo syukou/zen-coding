@@ -5,34 +5,39 @@
 common
 //////////////////////////////////////////////////////////////////////
 */
+.section {
+	border-top: 3px solid #85A063;
+}
+
 .section + .section {
 	margin-top: 65px;
 }
 
-.section-head {
+.pickup,
+.ranking,
+.blog {
 	position: relative;
-	margin: 0 0 40px;
+	padding: 45px 0 0;
+}
+
+.section-head {
+	position: absolute;
+	top: -18px;
+	right: 0;
+	left: 0;
+	width: 205px;
+	height: 31px;
+	margin: auto;
 	text-align: center;
 	color: #c9ab2d;
 	font-size: 21px;
 	font-size: 2.1rem;
 	font-weight: bold;
-	&:before {
-		position: absolute;
-		z-index: 0;
-		top: 15px;
-		display: block;
-		width: 100%;
-		height: 3px;
-		margin: auto;
-		content: '';
-		background: #708a4f;
-	}
 	.en {
-		position: relative;
-		display: inline-block;
+		display: block;
 		padding: 5px 30px;
 		background: url(../img/husky_bg.png);
+		box-sizing: border-box;
 	}
 }
 
@@ -44,10 +49,11 @@ header
 .header {
 	position: relative;
 	width: 100%;
+	min-width: 1200px;
 	height: 258px;
 	z-index: 10;
 	border-top: 20px solid #85A063;
-	background: url(../img/bg_head_paper.png) no-repeat top center;
+	background: url(../img/bg_head_paper.png) no-repeat bottom center;
 }
 
 .header-logo {
@@ -110,7 +116,7 @@ kv
 */
 .kv {
 	margin-top: -100px;
-	border-bottom: 7px solid #708a4f;
+	border-bottom: 7px solid #85A063;
 	img {
 		vertical-align: bottom;
 	}
@@ -119,7 +125,7 @@ kv
 .kv-outer {
 	height: 350px;
 	margin-bottom: 3px;
-	border-bottom: 3px solid #708a4f;
+	border-bottom: 3px solid #85A063;
 	overflow: hidden;
 }
 

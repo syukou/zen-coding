@@ -2,15 +2,15 @@
 .main-side-category-head {
   padding: 15px;
   color: #ffffff;
-  background-color: #708a4f;
+  background-color: #85A063;
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: bold; }
 
 .sideList__head {
   padding: 15px 15px 15px 0;
-  border-top: 3px solid #708a4f;
-  border-bottom: 3px solid #708a4f;
+  border-top: 3px solid #85A063;
+  border-bottom: 3px solid #85A063;
   color: #ffffff;
   font-size: 16px;
   font-size: 1.6rem;
@@ -56,9 +56,9 @@
 */
 .sideRanking__head {
   padding: 15px 15px 15px 0;
-  border-top: 3px solid #708a4f;
-  border-bottom: 3px solid #708a4f;
-  color: #708a4f;
+  border-top: 3px solid #85A063;
+  border-bottom: 3px solid #85A063;
+  color: #85A063;
   font-size: 16px;
   font-size: 1.6rem; }
 
@@ -324,7 +324,7 @@ more
   display: block;
   padding: 17px 15px;
   border-radius: 5px;
-  background-color: #708a4f;
+  background-color: #85A063;
   color: #ffffff;
   font-size: 16px;
   font-size: 1.6rem;

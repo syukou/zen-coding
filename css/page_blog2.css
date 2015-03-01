@@ -9,7 +9,7 @@ header
   width: 100%;
   height: 295px;
   z-index: 10;
-  border-top: 15px solid #708a4f;
+  border-top: 15px solid #85A063;
   background: url(../img/bg_header.png) no-repeat top center;
   background-size: 1200px 295px;
   background-color: #ffffff; }
@@ -73,7 +73,7 @@ header
   padding-left: 20px;
   font-size: 16px;
   font-size: 1.6rem;
-  background: #708a4f; }
+  background: #85A063; }
   .main-contents-head + .postlist {
     margin-top: 40px; }
   .main-contents-head span {
@@ -82,7 +82,7 @@ header
     background: url(../img/husky_bg.png) center top fixed; }
 
 .kv {
-  border-bottom: 7px solid #708a4f; }
+  border-bottom: 7px solid #85A063; }
   .kv img {
     vertical-align: bottom; }
 
@@ -90,8 +90,8 @@ header
   height: 350px;
   margin-top: 3px;
   margin-bottom: 3px;
-  border-top: 3px solid #708a4f;
-  border-bottom: 3px solid #708a4f;
+  border-top: 3px solid #85A063;
+  border-bottom: 3px solid #85A063;
   overflow: hidden; }
 
 .kv-inner {
@@ -223,7 +223,7 @@ header
   display: block;
   padding: 17px 15px;
   border-radius: 5px;
-  background-color: #708a4f;
+  background-color: #85A063;
   color: #ffffff;
   font-size: 16px;
   font-size: 1.6rem;
