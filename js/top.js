@@ -6,7 +6,7 @@ var TENSHIN = TENSHIN || {};
 
 TENSHIN.TOP = {};
 
-TENSHIN.TOP.FADE_CAROUSEL = {
+TENSHIN.TOP.KV_CAROUSEL = {
 	init : function(){
 		this.setParameters();
 		this.prepare();
@@ -14,26 +14,24 @@ TENSHIN.TOP.FADE_CAROUSEL = {
 	},
 	setParameters : function(){
 		this.$kvWrap = $('#jsi-carousel-container');
-		this.$kvLists = this.$kvWrap.find('li');
-		this.kvListsLength = this.$kvLists.length;
+
+		this.$kvLists = this.$kvWrap.find('img');
+		this.kvListSize = this.$kvLists.size();
+		this.kvListWidth = this.$kvLists.width();
+
 		this.currentIndex = 0;
+
+		this.$firstElement = this.$kvWrap.children('li:first');
+
 	},
 	prepare : function(){
-		this.$kvLists.eq(this.currentIndex).fadeIn('slow');
+		console.log(this.$firstElement);
 	},
 	bindEvent : function(){
-		setInterval($.proxy(this.fadeImages, this),7000);
-	},
-	fadeImages : function(){
-		var nextIndex = (this.currentIndex + 1) % this.kvListsLength;
-		this.$kvLists.eq(this.currentIndex).fadeOut('slow');
-		this.$kvLists.eq(nextIndex).fadeIn('slow');
-
-		this.currentIndex = nextIndex;
 	}
 };
 
 
 $(function(){
-	TENSHIN.TOP.FADE_CAROUSEL.init();
+	TENSHIN.TOP.KV_CAROUSEL.init();
 });
