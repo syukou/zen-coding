@@ -169,6 +169,40 @@
   background-color: #000000;
   color: #ffffff; }
 
+.cm-blogtag span {
+  display: table-cell;
+  height: 22px;
+  padding: 0 15px;
+  color: #f3f3f3;
+  font-size: 12px;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  text-align: center; }
+
+.cm-blogtag {
+  display: table;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.cm-blogtag .html {
+  background-color: #ff3333; }
+
+.cm-blogtag .js {
+  background-color: #1375ff; }
+
+.cm-blogtag .wp {
+  background-color: #ffc846; }
+
+.cm-blogtag .web {
+  background-color: #23ff19; }
+
+.cm-blogtag .css {
+  background-color: #36baff; }
+
+.cm-blogtag .zen {
+  background-color: #695d65; }
+
 /*
 //////////////////////////////////////////////////////////////////////
 新着記事

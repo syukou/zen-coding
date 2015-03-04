@@ -151,6 +151,7 @@ pickup
 //////////////////////////////////////////////////////////////////////
 */
 .pickup-list {
+	position: relative;
 	float: left;
 	width: 180px;
 	margin-right: 24px;
@@ -182,7 +183,20 @@ ranking
 	padding: 0 20px;
 	box-sizing: border-box;
 
+	a {
+		position: relative;
+	}
 }
+
+.ranking-top-list-num {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+}
+
 
 .ranking-top-list-image img {
 	width: 100%;
@@ -221,6 +235,7 @@ ranking
 }
 
 .ranking-under-list a {
+	position: relative;
 	display: block;
 }
 
@@ -252,15 +267,14 @@ New Post
 
 .blog-top-newpost-info-date {
 	display: block;
-	margin-top: 10px;
-	font-size: 13px;
-	font-size: 1.3rem;
-	text-align: right;
+	margin-top: 15px;
+	font-size: 16px;
+	font-size: 1.6rem;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
 
-.blog-top-newpost-info-detail {
+.blog-top-newpost-detail {
 	margin-top: 5px;
 	font-size: 15px;
 	font-size: 1.5rem;
@@ -270,8 +284,11 @@ New Post
 }
 
 .blog-top-newpost-thum {
+	width: 100%;
+	height: auto;
 	padding: 10px;
 	background-color: #fff;
+	box-sizing: border-box;
 }
 
 .blog-top-newpost-thum img {
@@ -309,26 +326,6 @@ Blog
 
 .bloglist-thum {
 	position: relative;
-}
-
-.bloglist-thum-tag {
-	display: table;
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
-.bloglist-thum-tag span {
-	display: table-cell;
-	height: 22px;
-	padding: 0 15px;
-	border-left: 1px solid #fff;
-	background: #f3f3f3;
-	color: #434343;
-	font-size: 12px;
-	font-size: 1.2rem;
-	vertical-align: middle;
-	text-align: center;
 }
 
 .bloglist-thum-img img {
