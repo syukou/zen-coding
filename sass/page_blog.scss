@@ -56,10 +56,14 @@ header
 	background: url(../img/bg_head_paper.png) no-repeat bottom center;
 }
 
+.header-inner {
+	position: relative;
+}
+
 .header-logo {
 	position: absolute;
 	left: 0;
-	top: -30px;
+	top: 225px;
 	right: 0;
 	bottom: 0;
 	width: 240px;
@@ -123,6 +127,7 @@ kv
 }
 
 .kv-outer {
+	position: relative;
 	height: 400px;
 	margin-bottom: 3px;
 	border-bottom: 3px solid #85A063;
@@ -130,20 +135,55 @@ kv
 }
 
 .kv-inner {
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 6000px;
+	margin-left: -1800px;
 }
 
 .kv-inner li {
-	display: none;
-	position: absolute;
-	left: 0;
-	top: 0;
+	float: left;
 }
 
 .kv-inner li img {
 	display: block;
 }
 
+.kv-cover-left,
+.kv-cover-right {
+	behavior: url(../js/PIE.htc);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 403px;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.kv-cover-left {
+	left: 50%;
+	margin-left: 600px;
+}
+
+.kv-cover-right {
+	right: 50%;
+	margin-right: 600px;
+}
+
+.kv-prev,
+.kv-next {
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+}
+
+.kv-prev {
+	left: 0;
+}
+
+.kv-next {
+	right: 0;
+}
 
 /*
 //////////////////////////////////////////////////////////////////////
@@ -302,8 +342,7 @@ New Post
 Blog
 //////////////////////////////////////////////////////////////////////
 */
-.blog-top,
-.blog-under {
+.blog-top {
 	margin: 0 -20px 0 -20px;
 }
 
@@ -351,12 +390,4 @@ Blog
 	line-height: 1.4;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
-}
-
-.blog-under-inner .bloglist {
-	float: left;
-	width: 20%;
-	margin-bottom: 30px;
-	padding: 0 20px;
-	box-sizing: border-box;
 }
